@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="eziee">
+  <rect width="64" height="64" rx="15" fill="#C6FF00"/>
+  <text x="31" y="47" text-anchor="middle" fill="#0B0B0F" font-family="Arial, Helvetica, sans-serif" font-size="44" font-style="italic" font-weight="900">e</text>
+  <path d="M48 9l2.3 5.7L56 17l-5.7 2.3L48 25l-2.3-5.7L40 17l5.7-2.3L48 9z" fill="#0B0B0F"/>
+</svg>

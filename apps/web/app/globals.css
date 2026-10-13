@@ -1,0 +1,245 @@
+@import "tailwindcss";
+@import "@repo/ui/tokens.css";
+
+@plugin "tailwindcss-animate";
+
+@custom-variant dark (&:is(.dark *));
+
+@source "../../../packages/ui/src";
+@source "../../../packages/wallet/src";
+/* Streamdown (AI Elements' markdown renderer) ships its own utility classes; Tailwind must scan them. */
+@source "../node_modules/streamdown/dist/*.js";
+
+@theme inline {
+  --font-satoshi: var(--font-satoshi);
+  --font-dm-mono: var(--font-dm-mono);
+
+  /* shadcn / AI Elements colour names, mapped onto the desk palette. There is ONE theme layer: these are
+     aliases, not a second palette, so every vendored component follows light and dark with the app. */
+  --color-background: var(--m-background);
+  --color-foreground: var(--m-text-primary);
+  --color-card: var(--m-surface);
+  --color-card-foreground: var(--m-text-primary);
+  --color-popover: var(--m-surface);
+  --color-popover-foreground: var(--m-text-primary);
+  --color-primary: var(--m-primary);
+  --color-primary-foreground: var(--m-on-primary);
+  --color-secondary: var(--m-surface-2);
+  --color-secondary-foreground: var(--m-text-primary);
+  --color-muted: var(--m-surface);
+  --color-muted-foreground: var(--m-text-secondary);
+  --color-accent: var(--m-surface-2);
+  --color-accent-foreground: var(--m-text-primary);
+  --color-destructive: var(--m-error);
+  --color-border: var(--m-border);
+  --color-input: var(--m-border);
+  --color-ring: var(--m-primary-fg);
+}
+
+body {
+  background: var(--m-background);
+  color: var(--m-text-primary);
+}
+
+/* Bright lime is a fill; its theme-aware foreground is the accessible focus ink. In the base layer, so a control
+   that shows focus another way (the chat's text box: its whole frame darkens) can opt out with a utility. */
+@layer base {
+  :where(a, button, input, textarea, select):focus-visible {
+    outline: 2px solid var(--m-primary-fg);
+    outline-offset: 3px;
+  }
+}
+
+::selection {
+  background: var(--m-primary);
+  color: var(--m-on-primary);
+}
+
+/* ------------------------------ motion ------------------------------
+   Functional feedback only (DESIGN.md: Motion). Enter transitions are 140 to 180 ms, ease-out, once. The loops
+   (cursor, dots, shimmer, the active step) exist only while the component that carries them is mounted for real
+   pending work. Every keyframe runs FROM its start pose TO the element's normal style, so with no animation at
+   all (reduced motion, or a card from history) everything is simply shown in its finished state. */
+:root {
+  --motion-fast: 140ms;
+  --motion-base: 180ms;
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+}
+.rise-in {
+  /* Backwards only: the start pose covers the first frame, and afterwards the element keeps no animated style. */
+  animation: rise-in var(--motion-base) var(--ease-out) backwards;
+}
+
+/* On for half a second, off for half: two held steps, no fade. */
+@keyframes cursor-blink {
+  to {
+    opacity: 0;
+  }
+}
+.streaming-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  vertical-align: text-bottom;
+  background: currentColor;
+  animation: cursor-blink 1s steps(2, jump-none) infinite;
+}
+
+@keyframes pending-dot {
+  0%,
+  100% {
+    opacity: 0.25;
+  }
+  33% {
+    opacity: 1;
+  }
+}
+.pending-dot {
+  animation: pending-dot 600ms linear infinite;
+}
+.pending-dot:nth-child(2) {
+  animation-delay: 200ms;
+}
+.pending-dot:nth-child(3) {
+  animation-delay: 400ms;
+}
+
+/* A highlight moving through the label of a read that is running. The label is secondary text, as it is at rest. */
+@keyframes shimmer {
+  from {
+    background-position: 100% 0;
+  }
+  to {
+    background-position: -100% 0;
+  }
+}
+.shimmer {
+  background-image: linear-gradient(90deg, var(--m-text-secondary) 40%, var(--m-text-primary) 50%, var(--m-text-secondary) 60%);
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: shimmer 1.2s linear infinite;
+}
+
+@keyframes step-pulse {
+  50% {
+    opacity: 0.6;
+  }
+}
+.step-pulse {
+  animation: step-pulse 900ms ease-in-out infinite;
+}
+
+@keyframes check-draw {
+  from {
+    stroke-dashoffset: 1;
+  }
+}
+.check-draw-path {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+}
+.check-draw-animate .check-draw-path {
+  animation: check-draw 200ms var(--ease-out) both;
+}
+
+.motion-color {
+  transition-property: color, background-color, border-color, opacity;
+  transition-duration: var(--motion-fast);
+  transition-timing-function: var(--ease-out);
+}
+.motion-press {
+  transition-property: color, background-color, transform;
+  transition-duration: var(--motion-fast);
+  transition-timing-function: var(--ease-out);
+}
+.motion-press:active:not(:disabled) {
+  transform: scale(0.97);
+}
+
+/* The chat's painted sky. It sits behind the conversation, fades into the page, and stays still. */
+.chat-sky {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+  --sky-fade: linear-gradient(to bottom, #000 0, #000 38%, transparent 82%);
+}
+.chat-sky::before,
+.chat-sky::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  -webkit-mask-image: var(--sky-fade);
+  mask-image: var(--sky-fade);
+}
+.chat-sky::before {
+  background: url("/chat/sky.webp") center top / cover no-repeat;
+}
+/* A fine dot screen over the painting, as in a printed cel. */
+.chat-sky::after {
+  background-image: radial-gradient(rgb(255 255 255 / 0.28) 0.7px, transparent 1.2px);
+  background-size: 4px 4px;
+}
+/* Once a conversation is under way the sky steps back so replies stay easy to read. */
+.chat-sky[data-quiet] {
+  opacity: 0.35;
+}
+.dark .chat-sky {
+  --sky-fade: linear-gradient(to bottom, #000 0, #000 20%, transparent 70%);
+}
+.dark .chat-sky::before {
+  filter: brightness(0.55) saturate(0.85);
+}
+.dark .chat-sky::after {
+  background-image: radial-gradient(rgb(0 0 0 / 0.35) 0.7px, transparent 1.2px);
+}
+.dark .chat-sky[data-quiet] {
+  opacity: 0.25;
+}
+/* A soft halo in the page colour, so text placed over the clouds stays readable. */
+.on-sky-text {
+  text-shadow:
+    0 0 2px var(--m-background),
+    0 0 12px var(--m-background),
+    0 0 28px color-mix(in srgb, var(--m-background) 70%, transparent);
+}
+/* Glass for controls that sit on the sky. Layered, so a hover fill from a utility still wins. */
+@layer components {
+  .on-sky {
+    background-color: color-mix(in srgb, var(--m-surface) 72%, transparent);
+    -webkit-backdrop-filter: blur(16px) saturate(1.2);
+    backdrop-filter: blur(16px) saturate(1.2);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rise-in,
+  .streaming-cursor,
+  .pending-dot,
+  .shimmer,
+  .step-pulse,
+  .check-draw-animate .check-draw-path,
+  .motion-color,
+  .motion-press {
+    animation: none;
+    transition: none;
+  }
+  /* Plain text: the moving highlight is gone and the label keeps its colour. */
+  .shimmer {
+    background-image: none;
+    color: inherit;
+  }
+  .motion-press:active:not(:disabled) {
+    transform: none;
+  }
+}

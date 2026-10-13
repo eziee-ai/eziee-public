@@ -1,0 +1,2061 @@
+{
+  "data": "rise",
+  "runs": 1,
+  "llm": "claude CLI sonnet, 1 turn, data inlined",
+  "markets": [
+    {
+      "symbol": "SKHY/ETH",
+      "baseName": "SK Hynix",
+      "listed": true,
+      "tvlUSD": 317,
+      "volume24hUSD": 0,
+      "volume30dUSD": 3855,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0,
+      "change30dPct": -7.95,
+      "trades": 28
+    },
+    {
+      "symbol": "PHNX/ETH",
+      "baseName": "Phoenix",
+      "listed": true,
+      "tvlUSD": 0,
+      "volume24hUSD": 0,
+      "volume30dUSD": 3813,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0,
+      "change30dPct": 2.2,
+      "trades": 19
+    },
+    {
+      "symbol": "YEAST/ETH",
+      "baseName": "Yeast",
+      "listed": true,
+      "tvlUSD": 819,
+      "volume24hUSD": 0,
+      "volume30dUSD": 3719,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0,
+      "change30dPct": -2.74,
+      "trades": 24
+    },
+    {
+      "symbol": "DOUGH/ETH",
+      "baseName": "Dough",
+      "listed": true,
+      "tvlUSD": 691,
+      "volume24hUSD": 0,
+      "volume30dUSD": 3517,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0,
+      "change30dPct": -2.78,
+      "trades": 22
+    },
+    {
+      "symbol": "QVFASZ/ETH",
+      "baseName": "Verify quote QVFASZ",
+      "listed": true,
+      "tvlUSD": 0,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0,
+      "change30dPct": 0,
+      "trades": 0
+    },
+    {
+      "symbol": "QVF3IX/ETH",
+      "baseName": "Verify quote QVF3IX",
+      "listed": true,
+      "tvlUSD": 0,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0,
+      "change30dPct": 0,
+      "trades": 0
+    },
+    {
+      "symbol": "VFQZDH/ETH",
+      "baseName": "Verify VFQZDH",
+      "listed": true,
+      "tvlUSD": 1,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 1.32,
+      "change30dPct": 1.32,
+      "trades": 2
+    },
+    {
+      "symbol": "VFASZP/QVFASZ",
+      "baseName": "Verify VFASZP",
+      "listed": true,
+      "tvlUSD": 0,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0,
+      "change30dPct": 0,
+      "trades": 0
+    },
+    {
+      "symbol": "VF3IXR/QVF3IX",
+      "baseName": "Verify VF3IXR",
+      "listed": true,
+      "tvlUSD": 0,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0,
+      "change30dPct": 0,
+      "trades": 0
+    },
+    {
+      "symbol": "VFSYAH/ETH",
+      "baseName": "Verify VFSYAH",
+      "listed": true,
+      "tvlUSD": 1,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": -0.75,
+      "change30dPct": -0.75,
+      "trades": 2
+    },
+    {
+      "symbol": "VFHKX1/ETH",
+      "baseName": "Verify VFHKX1",
+      "listed": true,
+      "tvlUSD": 1,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0,
+      "change30dPct": 0,
+      "trades": 2
+    },
+    {
+      "symbol": "QVFLFX/ETH",
+      "baseName": "Verify quote QVFLFX",
+      "listed": true,
+      "tvlUSD": 0,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0,
+      "change30dPct": 0,
+      "trades": 0
+    },
+    {
+      "symbol": "QVF081/ETH",
+      "baseName": "Verify quote QVF081",
+      "listed": true,
+      "tvlUSD": 0,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0,
+      "change30dPct": 0,
+      "trades": 0
+    },
+    {
+      "symbol": "VFG5QT/ETH",
+      "baseName": "Verify VFG5QT",
+      "listed": true,
+      "tvlUSD": 1,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0.76,
+      "change30dPct": 0.76,
+      "trades": 2
+    },
+    {
+      "symbol": "VFLFXJ/QVFLFX",
+      "baseName": "Verify VFLFXJ",
+      "listed": true,
+      "tvlUSD": 0,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0,
+      "change30dPct": 0,
+      "trades": 0
+    },
+    {
+      "symbol": "VFHKX1/QVFHKX",
+      "baseName": "Verify VFHKX1",
+      "listed": true,
+      "tvlUSD": 0,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0,
+      "change30dPct": 0,
+      "trades": 0
+    },
+    {
+      "symbol": "VFLFXJ/ETH",
+      "baseName": "Verify VFLFXJ",
+      "listed": true,
+      "tvlUSD": 1,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0,
+      "change30dPct": 0,
+      "trades": 2
+    },
+    {
+      "symbol": "VF081C/QVF081",
+      "baseName": "Verify VF081C",
+      "listed": true,
+      "tvlUSD": 0,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0.76,
+      "change30dPct": 0.76,
+      "trades": 0
+    },
+    {
+      "symbol": "QVFHKX/ETH",
+      "baseName": "Verify quote QVFHKX",
+      "listed": true,
+      "tvlUSD": 0,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0,
+      "change30dPct": 0,
+      "trades": 0
+    },
+    {
+      "symbol": "QVFCAF/ETH",
+      "baseName": "Verify quote QVFCAF",
+      "listed": true,
+      "tvlUSD": 0,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0,
+      "change30dPct": 0,
+      "trades": 0
+    },
+    {
+      "symbol": "VFG5QT/QVFG5Q",
+      "baseName": "Verify VFG5QT",
+      "listed": true,
+      "tvlUSD": 0,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0.76,
+      "change30dPct": 0.76,
+      "trades": 0
+    },
+    {
+      "symbol": "QVFG5Q/ETH",
+      "baseName": "Verify quote QVFG5Q",
+      "listed": true,
+      "tvlUSD": 0,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0,
+      "change30dPct": 0,
+      "trades": 0
+    },
+    {
+      "symbol": "QVFRFO/ETH",
+      "baseName": "Verify quote QVFRFO",
+      "listed": true,
+      "tvlUSD": 0,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0,
+      "change30dPct": 0,
+      "trades": 0
+    },
+    {
+      "symbol": "VFOBH2/ETH",
+      "baseName": "Verify VFOBH2",
+      "listed": true,
+      "tvlUSD": 1,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0.76,
+      "change30dPct": 0.76,
+      "trades": 2
+    },
+    {
+      "symbol": "VFOBH2/QVFOBH",
+      "baseName": "Verify VFOBH2",
+      "listed": true,
+      "tvlUSD": 0,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0.76,
+      "change30dPct": 0.76,
+      "trades": 0
+    },
+    {
+      "symbol": "VFCAF2/QVFCAF",
+      "baseName": "Verify VFCAF2",
+      "listed": true,
+      "tvlUSD": 0,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0,
+      "change30dPct": 0,
+      "trades": 0
+    },
+    {
+      "symbol": "VFRFOY/ETH",
+      "baseName": "Verify VFRFOY",
+      "listed": true,
+      "tvlUSD": 1,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0.76,
+      "change30dPct": 0.76,
+      "trades": 2
+    },
+    {
+      "symbol": "QVFOBH/ETH",
+      "baseName": "Verify quote QVFOBH",
+      "listed": true,
+      "tvlUSD": 0,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0,
+      "change30dPct": 0,
+      "trades": 0
+    },
+    {
+      "symbol": "VF3IXR/ETH",
+      "baseName": "Verify VF3IXR",
+      "listed": true,
+      "tvlUSD": 1,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0,
+      "change30dPct": 0,
+      "trades": 2
+    },
+    {
+      "symbol": "VFAZNM/ETH",
+      "baseName": "Verify VFAZNM",
+      "listed": true,
+      "tvlUSD": 1,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": -0.75,
+      "change30dPct": -0.75,
+      "trades": 2
+    },
+    {
+      "symbol": "VFFAMM/ETH",
+      "baseName": "Verify VFFAMM",
+      "listed": true,
+      "tvlUSD": 1,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": -0.75,
+      "change30dPct": -0.75,
+      "trades": 2
+    },
+    {
+      "symbol": "VFASZP/ETH",
+      "baseName": "Verify VFASZP",
+      "listed": true,
+      "tvlUSD": 1,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0,
+      "change30dPct": 0,
+      "trades": 2
+    },
+    {
+      "symbol": "VF081C/ETH",
+      "baseName": "Verify VF081C",
+      "listed": true,
+      "tvlUSD": 1,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0.76,
+      "change30dPct": 0.76,
+      "trades": 2
+    },
+    {
+      "symbol": "VFDGQF/ETH",
+      "baseName": "Verify VFDGQF",
+      "listed": true,
+      "tvlUSD": 1,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 2,
+      "change30dPct": 2,
+      "trades": 1
+    },
+    {
+      "symbol": "VFCAF2/ETH",
+      "baseName": "Verify VFCAF2",
+      "listed": true,
+      "tvlUSD": 1,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0,
+      "change30dPct": 0,
+      "trades": 2
+    },
+    {
+      "symbol": "VFRFOY/QVFRFO",
+      "baseName": "Verify VFRFOY",
+      "listed": true,
+      "tvlUSD": 0,
+      "volume24hUSD": 0,
+      "volume30dUSD": 0,
+      "feeBps": null,
+      "estLpFeeAprPct": null,
+      "change24hPct": 0,
+      "change7dPct": 0.76,
+      "change30dPct": 0.76,
+      "trades": 0
+    }
+  ],
+  "rows": [
+    {
+      "id": "lp_apy",
+      "text": "Where can I earn the highest APY providing liquidity?",
+      "expectIntent": "provide_liquidity",
+      "expectCriterion": "highest_yield",
+      "truth": "none_suitable",
+      "jev": [
+        {
+          "ms": 580.682834,
+          "usage": {
+            "input_tokens": 2832,
+            "output_tokens": 522
+          },
+          "model": "jev-1.13.0",
+          "intent": "provide_liquidity",
+          "intentConf": 1,
+          "criterion": "highest_yield",
+          "criterionConf": 1,
+          "risk": 1.86,
+          "dataMeaningful": 0.05,
+          "b1Pick": "none_suitable",
+          "b1Conf": 0.9,
+          "b2Pick": "none_suitable",
+          "raw": {
+            "intent": {
+              "type": "choice",
+              "choice": "provide_liquidity",
+              "confidence": 1,
+              "probabilities": {
+                "swap_specific": 0,
+                "buy_asset": 0,
+                "account_info": 0,
+                "unclear": 0,
+                "provide_liquidity": 1,
+                "market_info": 0
+              }
+            },
+            "criterion": {
+              "type": "choice",
+              "choice": "highest_yield",
+              "confidence": 1,
+              "probabilities": {
+                "deepest_liquidity": 0,
+                "monthly_dip": 0,
+                "weekly_momentum": 0,
+                "unspecified": 0,
+                "lowest_risk": 0,
+                "highest_yield": 1,
+                "most_traded": 0
+              }
+            },
+            "risk_appetite": {
+              "type": "score",
+              "score": 1.86,
+              "confidence": 0.78,
+              "legend": {
+                "0": "Explicitly wants to avoid risk or swings",
+                "1": "States no preference about risk",
+                "2": "Explicitly chasing high returns or fast moves"
+              },
+              "probabilities": {
+                "0": 0,
+                "1": 0.14,
+                "2": 0.86
+              }
+            },
+            "buy_pick": {
+              "type": "choice",
+              "choice": "none_suitable",
+              "confidence": 0.77,
+              "probabilities": {
+                "VFAZNM/ETH": 0,
+                "none_suitable": 0.79,
+                "VFSYAH/ETH": 0,
+                "VFQZDH/ETH": 0.01,
+                "DOUGH/ETH": 0.01,
+                "VFLFXJ/ETH": 0,
+                "VFRFOY/ETH": 0.01,
+                "YEAST/ETH": 0.13,
+                "VFOBH2/ETH": 0,
+                "VF3IXR/ETH": 0,
+                "VFG5QT/ETH": 0.01,
+                "VFHKX1/ETH": 0,
+                "SKHY/ETH": 0.04
+              }
+            },
+            "lp_pick": {
+              "type": "choice",
+              "choice": "none_suitable",
+              "confidence": 0.9,
+              "probabilities": {
+                "VFG5QT/ETH": 0,
+                "none_suitable": 0.92,
+                "VFQZDH/ETH": 0,
+                "VFSYAH/ETH": 0,
+                "VFAZNM/ETH": 0,
+                "VFLFXJ/ETH": 0,
+                "VFRFOY/ETH": 0,
+                "DOUGH/ETH": 0,
+                "VFOBH2/ETH": 0,
+                "VF3IXR/ETH": 0,
+                "YEAST/ETH": 0.06,
+                "VFHKX1/ETH": 0,
+                "SKHY/ETH": 0.02
+              }
+            },
+            "data_meaningful": {
+              "type": "noul",
+              "noul": 0.05
+            }
+          }
+        }
+      ],
+      "llm": [
+        {
+          "ms": 7717,
+          "wallMs": 7920,
+          "turns": 1,
+          "costUSD": 0.027018,
+          "usage": {
+            "input": 5298,
+            "output": 583
+          },
+          "intent": "provide_liquidity",
+          "pick": "none_suitable",
+          "text": "I can't tell you where the highest APY is, because Iter returned no APY figure for any pool. The estimated LP fee APR (`estLpFeeAprPct`) and the fee rate (`feeBps`) are null for every market listed, so there's nothing to rank on.\n\nWhat the data does show is only activity, which isn't a yield measure:\n- **SKHY/ETH, PHNX/ETH, YEAST/ETH and DOUGH/ETH** are the only pools with meaningful 30-day volume, about $3.5k to $3.9k each.\n- **TVL** on those is $0 to $819, and 24h volume is 0 on all of them.\n- **The remaining pools**, mostly \"Verify\" and \"quote\" test markets, have $0 to $1 of TVL and no volume.\n\nI'd rather not estimate an APY from volume and TVL when the fee rate is missing. Any number I gave would be a guess. If you check a pool's fee tier in the app, or ask me to re-run the read later once fee data populates, I can compare them properly.\n\nINTENT: provide_liquidity\nPICK: NONE"
+        }
+      ]
+    },
+    {
+      "id": "buy_open",
+      "text": "I have 500 USDC, what's the best asset to buy right now?",
+      "expectIntent": "buy_asset",
+      "expectCriterion": "unspecified",
+      "truth": null,
+      "jev": [
+        {
+          "ms": 526.9369169999991,
+          "usage": {
+            "input_tokens": 2840,
+            "output_tokens": 520
+          },
+          "model": "jev-1.13.0",
+          "intent": "buy_asset",
+          "intentConf": 1,
+          "criterion": "unspecified",
+          "criterionConf": 1,
+          "risk": 1,
+          "dataMeaningful": 0.06,
+          "b1Pick": "none_suitable",
+          "b1Conf": 0.43,
+          "b2Pick": null,
+          "raw": {
+            "intent": {
+              "type": "choice",
+              "choice": "buy_asset",
+              "confidence": 1,
+              "probabilities": {
+                "swap_specific": 0,
+                "unclear": 0,
+                "buy_asset": 1,
+                "provide_liquidity": 0,
+                "account_info": 0,
+                "market_info": 0
+              }
+            },
+            "criterion": {
+              "type": "choice",
+              "choice": "unspecified",
+              "confidence": 1,
+              "probabilities": {
+                "monthly_dip": 0,
+                "lowest_risk": 0,
+                "highest_yield": 0,
+                "deepest_liquidity": 0,
+                "unspecified": 1,
+                "most_traded": 0,
+                "weekly_momentum": 0
+              }
+            },
+            "risk_appetite": {
+              "type": "score",
+              "score": 1,
+              "confidence": 1,
+              "legend": {
+                "0": "Explicitly wants to avoid risk or swings",
+                "1": "States no preference about risk",
+                "2": "Explicitly chasing high returns or fast moves"
+              },
+              "probabilities": {
+                "0": 0,
+                "1": 1,
+                "2": 0
+              }
+            },
+            "buy_pick": {
+              "type": "choice",
+              "choice": "none_suitable",
+              "confidence": 0.43,
+              "probabilities": {
+                "VFOBH2/ETH": 0.02,
+                "VFRFOY/ETH": 0.01,
+                "VFQZDH/ETH": 0.04,
+                "VFAZNM/ETH": 0,
+                "none_suitable": 0.47,
+                "SKHY/ETH": 0.09,
+                "DOUGH/ETH": 0.02,
+                "VFSYAH/ETH": 0.01,
+                "VFG5QT/ETH": 0.01,
+                "VFLFXJ/ETH": 0,
+                "VFHKX1/ETH": 0.01,
+                "YEAST/ETH": 0.31,
+                "VF3IXR/ETH": 0.01
+              }
+            },
+            "lp_pick": {
+              "type": "choice",
+              "choice": "none_suitable",
+              "confidence": 0.84,
+              "probabilities": {
+                "VFOBH2/ETH": 0,
+                "VFRFOY/ETH": 0,
+                "VFQZDH/ETH": 0,
+                "VFAZNM/ETH": 0,
+                "none_suitable": 0.87,
+                "YEAST/ETH": 0.11,
+                "DOUGH/ETH": 0,
+                "VFSYAH/ETH": 0,
+                "VFG5QT/ETH": 0,
+                "VFLFXJ/ETH": 0,
+                "VFHKX1/ETH": 0,
+                "SKHY/ETH": 0.02,
+                "VF3IXR/ETH": 0
+              }
+            },
+            "data_meaningful": {
+              "type": "noul",
+              "noul": 0.06
+            }
+          }
+        }
+      ],
+      "llm": [
+        {
+          "ms": 11728,
+          "wallMs": 11951,
+          "turns": 1,
+          "costUSD": 0.03056,
+          "usage": {
+            "input": 5301,
+            "output": 936
+          },
+          "intent": "buy_asset",
+          "pick": "none_suitable",
+          "text": "I can't point you to a best asset on this data. Nothing listed is liquid enough for a 500 USDC buy.\n\n- **Depth:** The deepest pool with real liquidity is YEAST/ETH at $819 TVL, then DOUGH/ETH at $691 and SKHY/ETH at $317. A $500 buy would be most or all of any of these pools, so you'd move the price heavily against yourself.\n- **Activity:** 24h volume is $0 in every pool. The most active over 30 days are SKHY, PHNX, YEAST and DOUGH, at roughly $3.5k-$3.9k each.\n- **Performance:** The 30-day changes for the pools with liquidity are all negative: YEAST -2.74%, DOUGH -2.78%, SKHY -7.95%. PHNX/ETH is up 2.2% over 30 days but shows $0 TVL, so it isn't tradeable.\n- **Test tokens:** The many \"Verify…\" and \"QVF…\" entries look like test markets, with $0-$1 TVL and 0-2 trades. I'd ignore them.\n- **Routing:** Every pool is quoted against ETH, not USDC, so you'd need a USDC→ETH swap first, which adds cost.\n\nThe data can't tell you what will go up. If you still want exposure, YEAST/ETH is the deepest pool. I'd split the order into small pieces and check the quoted price impact first. Otherwise, waiting for deeper liquidity is reasonable.\n\nINTENT: buy_asset\nPICK: NONE"
+        }
+      ]
+    },
+    {
+      "id": "lp_deep",
+      "text": "Which pool has the deepest liquidity? I want to LP there.",
+      "expectIntent": "provide_liquidity",
+      "expectCriterion": "deepest_liquidity",
+      "truth": "none_suitable",
+      "jev": [
+        {
+          "ms": 672.2030410000007,
+          "usage": {
+            "input_tokens": 2834,
+            "output_tokens": 524
+          },
+          "model": "jev-1.13.0",
+          "intent": "provide_liquidity",
+          "intentConf": 1,
+          "criterion": "deepest_liquidity",
+          "criterionConf": 1,
+          "risk": 1.04,
+          "dataMeaningful": 0.06,
+          "b1Pick": "YEAST/ETH",
+          "b1Conf": 0.98,
+          "b2Pick": "none_suitable",
+          "raw": {
+            "intent": {
+              "type": "choice",
+              "choice": "provide_liquidity",
+              "confidence": 1,
+              "probabilities": {
+                "market_info": 0,
+                "account_info": 0,
+                "provide_liquidity": 1,
+                "buy_asset": 0,
+                "swap_specific": 0,
+                "unclear": 0
+              }
+            },
+            "criterion": {
+              "type": "choice",
+              "choice": "deepest_liquidity",
+              "confidence": 1,
+              "probabilities": {
+                "weekly_momentum": 0,
+                "highest_yield": 0,
+                "most_traded": 0,
+                "unspecified": 0,
+                "lowest_risk": 0,
+                "deepest_liquidity": 1,
+                "monthly_dip": 0
+              }
+            },
+            "risk_appetite": {
+              "type": "score",
+              "score": 1.04,
+              "confidence": 0.93,
+              "legend": {
+                "0": "Explicitly wants to avoid risk or swings",
+                "1": "States no preference about risk",
+                "2": "Explicitly chasing high returns or fast moves"
+              },
+              "probabilities": {
+                "0": 0,
+                "1": 0.96,
+                "2": 0.04
+              }
+            },
+            "buy_pick": {
+              "type": "choice",
+              "choice": "YEAST/ETH",
+              "confidence": 0.86,
+              "probabilities": {
+                "DOUGH/ETH": 0.01,
+                "VFQZDH/ETH": 0,
+                "VFRFOY/ETH": 0,
+                "VFSYAH/ETH": 0,
+                "VFLFXJ/ETH": 0,
+                "VF3IXR/ETH": 0,
+                "VFHKX1/ETH": 0,
+                "VFG5QT/ETH": 0,
+                "YEAST/ETH": 0.88,
+                "VFAZNM/ETH": 0,
+                "none_suitable": 0.08,
+                "SKHY/ETH": 0.03,
+                "VFOBH2/ETH": 0
+              }
+            },
+            "lp_pick": {
+              "type": "choice",
+              "choice": "YEAST/ETH",
+              "confidence": 0.98,
+              "probabilities": {
+                "YEAST/ETH": 0.98,
+                "VFQZDH/ETH": 0,
+                "VFLFXJ/ETH": 0,
+                "VFSYAH/ETH": 0,
+                "VFRFOY/ETH": 0,
+                "VF3IXR/ETH": 0,
+                "VFHKX1/ETH": 0,
+                "VFG5QT/ETH": 0,
+                "none_suitable": 0.02,
+                "VFAZNM/ETH": 0,
+                "SKHY/ETH": 0,
+                "VFOBH2/ETH": 0,
+                "DOUGH/ETH": 0
+              }
+            },
+            "data_meaningful": {
+              "type": "noul",
+              "noul": 0.06
+            }
+          }
+        }
+      ],
+      "llm": [
+        {
+          "ms": 3717,
+          "wallMs": 3935,
+          "turns": 1,
+          "costUSD": 0.023289999999999998,
+          "usage": {
+            "input": 5301,
+            "output": 209
+          },
+          "intent": "provide_liquidity",
+          "pick": "YEAST/ETH",
+          "text": "By TVL, the deepest pool is **YEAST/ETH at $819**. Next are DOUGH/ETH ($691) and SKHY/ETH ($317). Every other pool is at $1 or less.\n\nDepth is thin everywhere. Even the top pool is under $1,000, so a modest deposit would move the price a lot and make up a large share of the pool. All four pools also show $0 in 24h volume, and the tool returned no fee or APR data (feeBps and estLpFeeAprPct are null). I can't tell you what LPing there would earn.\n\nINTENT: provide_liquidity\nPICK: YEAST/ETH"
+        }
+      ]
+    },
+    {
+      "id": "buy_momentum",
+      "text": "What's pumping this week? I want in.",
+      "expectIntent": "buy_asset",
+      "expectCriterion": "weekly_momentum",
+      "truth": "none_suitable",
+      "jev": [
+        {
+          "ms": 510.9544169999972,
+          "usage": {
+            "input_tokens": 2831,
+            "output_tokens": 523
+          },
+          "model": "jev-1.13.0",
+          "intent": "buy_asset",
+          "intentConf": 0.79,
+          "criterion": "weekly_momentum",
+          "criterionConf": 0.99,
+          "risk": 1.82,
+          "dataMeaningful": 0.05,
+          "b1Pick": "VFQZDH/ETH",
+          "b1Conf": 0.34,
+          "b2Pick": "none_suitable",
+          "raw": {
+            "intent": {
+              "type": "choice",
+              "choice": "buy_asset",
+              "confidence": 0.79,
+              "probabilities": {
+                "provide_liquidity": 0.14,
+                "swap_specific": 0,
+                "account_info": 0,
+                "market_info": 0.02,
+                "unclear": 0.02,
+                "buy_asset": 0.82
+              }
+            },
+            "criterion": {
+              "type": "choice",
+              "choice": "weekly_momentum",
+              "confidence": 0.99,
+              "probabilities": {
+                "unspecified": 0.01,
+                "weekly_momentum": 0.99,
+                "most_traded": 0,
+                "monthly_dip": 0,
+                "deepest_liquidity": 0,
+                "lowest_risk": 0,
+                "highest_yield": 0
+              }
+            },
+            "risk_appetite": {
+              "type": "score",
+              "score": 1.82,
+              "confidence": 0.73,
+              "legend": {
+                "0": "Explicitly wants to avoid risk or swings",
+                "1": "States no preference about risk",
+                "2": "Explicitly chasing high returns or fast moves"
+              },
+              "probabilities": {
+                "0": 0,
+                "1": 0.18,
+                "2": 0.82
+              }
+            },
+            "buy_pick": {
+              "type": "choice",
+              "choice": "VFQZDH/ETH",
+              "confidence": 0.34,
+              "probabilities": {
+                "VFOBH2/ETH": 0.02,
+                "VFLFXJ/ETH": 0,
+                "VF3IXR/ETH": 0.01,
+                "YEAST/ETH": 0.13,
+                "VFG5QT/ETH": 0.02,
+                "VFHKX1/ETH": 0.01,
+                "none_suitable": 0.26,
+                "VFSYAH/ETH": 0.01,
+                "DOUGH/ETH": 0.01,
+                "VFQZDH/ETH": 0.39,
+                "VFAZNM/ETH": 0.01,
+                "VFRFOY/ETH": 0.02,
+                "SKHY/ETH": 0.11
+              }
+            },
+            "lp_pick": {
+              "type": "choice",
+              "choice": "none_suitable",
+              "confidence": 0.83,
+              "probabilities": {
+                "VFRFOY/ETH": 0.01,
+                "VFLFXJ/ETH": 0,
+                "VF3IXR/ETH": 0,
+                "YEAST/ETH": 0.09,
+                "VFG5QT/ETH": 0,
+                "VFHKX1/ETH": 0,
+                "none_suitable": 0.85,
+                "VFSYAH/ETH": 0,
+                "DOUGH/ETH": 0.01,
+                "VFQZDH/ETH": 0,
+                "VFAZNM/ETH": 0,
+                "SKHY/ETH": 0.04,
+                "VFOBH2/ETH": 0
+              }
+            },
+            "data_meaningful": {
+              "type": "noul",
+              "noul": 0.05
+            }
+          }
+        }
+      ],
+      "llm": [
+        {
+          "ms": 9321,
+          "wallMs": 9530,
+          "turns": 1,
+          "costUSD": 0.029194000000000005,
+          "usage": {
+            "input": 5292,
+            "output": 803
+          },
+          "intent": "buy_asset",
+          "pick": "none_suitable",
+          "text": "Nothing is really pumping this week. By 7-day change, the top of the list is:\n\n- **VFDGQF/ETH**: +2.00%, but TVL is $1 and it has had 1 trade.\n- **VFQZDH/ETH**: +1.32%, with $1 TVL and 2 trades.\n- **VFOBH2/ETH, VFRFOY/ETH, VF081C/ETH, VFG5QT/ETH**: +0.76% each, all with $1 TVL and 2 trades.\n\nThese are \"Verify\" test-style tokens with about $1 of liquidity. Those moves come from a couple of dust trades, and you couldn't get in or out at any size.\n\nThe pools with real TVL or volume (SKHY/ETH, PHNX/ETH, YEAST/ETH, DOUGH/ETH) are all flat, at 0.00% over 7 days with $0 volume in the last 24h. PHNX/ETH also shows $0 TVL.\n\nI wouldn't point you to anything for a momentum buy right now. If you tell me a specific token you're eyeing, I can look at its liquidity and recent trades.\n\nINTENT: buy_asset\nPICK: NONE"
+        }
+      ]
+    },
+    {
+      "id": "buy_volume",
+      "text": "Buy me the most actively traded token today",
+      "expectIntent": "buy_asset",
+      "expectCriterion": "most_traded",
+      "truth": "none_suitable",
+      "jev": [
+        {
+          "ms": 515.7082910000026,
+          "usage": {
+            "input_tokens": 2829,
+            "output_tokens": 520
+          },
+          "model": "jev-1.13.0",
+          "intent": "buy_asset",
+          "intentConf": 1,
+          "criterion": "most_traded",
+          "criterionConf": 1,
+          "risk": 1.19,
+          "dataMeaningful": 0.05,
+          "b1Pick": "SKHY/ETH",
+          "b1Conf": 0.44,
+          "b2Pick": "none_suitable",
+          "raw": {
+            "intent": {
+              "type": "choice",
+              "choice": "buy_asset",
+              "confidence": 1,
+              "probabilities": {
+                "provide_liquidity": 0,
+                "market_info": 0,
+                "buy_asset": 1,
+                "swap_specific": 0,
+                "unclear": 0,
+                "account_info": 0
+              }
+            },
+            "criterion": {
+              "type": "choice",
+              "choice": "most_traded",
+              "confidence": 1,
+              "probabilities": {
+                "deepest_liquidity": 0,
+                "weekly_momentum": 0,
+                "lowest_risk": 0,
+                "unspecified": 0,
+                "most_traded": 1,
+                "highest_yield": 0,
+                "monthly_dip": 0
+              }
+            },
+            "risk_appetite": {
+              "type": "score",
+              "score": 1.19,
+              "confidence": 0.71,
+              "legend": {
+                "0": "Explicitly wants to avoid risk or swings",
+                "1": "States no preference about risk",
+                "2": "Explicitly chasing high returns or fast moves"
+              },
+              "probabilities": {
+                "0": 0,
+                "1": 0.81,
+                "2": 0.19
+              }
+            },
+            "buy_pick": {
+              "type": "choice",
+              "choice": "SKHY/ETH",
+              "confidence": 0.44,
+              "probabilities": {
+                "VFOBH2/ETH": 0,
+                "VFLFXJ/ETH": 0,
+                "VFSYAH/ETH": 0.01,
+                "none_suitable": 0.38,
+                "VFQZDH/ETH": 0,
+                "VFG5QT/ETH": 0,
+                "SKHY/ETH": 0.49,
+                "VF3IXR/ETH": 0,
+                "VFRFOY/ETH": 0.01,
+                "DOUGH/ETH": 0.01,
+                "YEAST/ETH": 0.1,
+                "VFAZNM/ETH": 0,
+                "VFHKX1/ETH": 0
+              }
+            },
+            "lp_pick": {
+              "type": "choice",
+              "choice": "none_suitable",
+              "confidence": 0.74,
+              "probabilities": {
+                "VFLFXJ/ETH": 0,
+                "VFOBH2/ETH": 0,
+                "VFSYAH/ETH": 0,
+                "none_suitable": 0.77,
+                "VFQZDH/ETH": 0,
+                "VFG5QT/ETH": 0,
+                "SKHY/ETH": 0.07,
+                "VF3IXR/ETH": 0,
+                "VFRFOY/ETH": 0.01,
+                "DOUGH/ETH": 0.01,
+                "YEAST/ETH": 0.14,
+                "VFAZNM/ETH": 0,
+                "VFHKX1/ETH": 0
+              }
+            },
+            "data_meaningful": {
+              "type": "noul",
+              "noul": 0.05
+            }
+          }
+        }
+      ],
+      "llm": [
+        {
+          "ms": 4496,
+          "wallMs": 4688,
+          "turns": 1,
+          "costUSD": 0.024304000000000003,
+          "usage": {
+            "input": 5292,
+            "output": 314
+          },
+          "intent": "buy_asset",
+          "pick": "none_suitable",
+          "text": "I can't pick a token for you, because no market on Iter traded today. Every pool shows $0 in 24h volume, so none is the most active.\n\nThe most active pool over the last 30 days is SKHY/ETH ($3,855 volume, 28 trades). That's a different measure from what you asked for, and its TVL is only $317, so even a small buy could move the price a lot. I haven't placed any order.\n\nIf you want to buy SKHY/ETH anyway, or use 30-day volume as the measure, tell me and I'll go from there.\n\nINTENT: buy_asset\nPICK: NONE"
+        }
+      ]
+    },
+    {
+      "id": "buy_dip",
+      "text": "Which token fell the most this month? Thinking of buying the dip.",
+      "expectIntent": "buy_asset",
+      "expectCriterion": "monthly_dip",
+      "truth": "none_suitable",
+      "jev": [
+        {
+          "ms": 607.7777910000004,
+          "usage": {
+            "input_tokens": 2835,
+            "output_tokens": 520
+          },
+          "model": "jev-1.13.0",
+          "intent": "buy_asset",
+          "intentConf": 0.99,
+          "criterion": "monthly_dip",
+          "criterionConf": 1,
+          "risk": 1.41,
+          "dataMeaningful": 0.07,
+          "b1Pick": "SKHY/ETH",
+          "b1Conf": 0.96,
+          "b2Pick": "none_suitable",
+          "raw": {
+            "intent": {
+              "type": "choice",
+              "choice": "buy_asset",
+              "confidence": 0.99,
+              "probabilities": {
+                "account_info": 0,
+                "buy_asset": 0.99,
+                "provide_liquidity": 0,
+                "swap_specific": 0,
+                "unclear": 0,
+                "market_info": 0.01
+              }
+            },
+            "criterion": {
+              "type": "choice",
+              "choice": "monthly_dip",
+              "confidence": 1,
+              "probabilities": {
+                "most_traded": 0,
+                "unspecified": 0,
+                "highest_yield": 0,
+                "monthly_dip": 1,
+                "lowest_risk": 0,
+                "deepest_liquidity": 0,
+                "weekly_momentum": 0
+              }
+            },
+            "risk_appetite": {
+              "type": "score",
+              "score": 1.41,
+              "confidence": 0.38,
+              "legend": {
+                "0": "Explicitly wants to avoid risk or swings",
+                "1": "States no preference about risk",
+                "2": "Explicitly chasing high returns or fast moves"
+              },
+              "probabilities": {
+                "0": 0,
+                "1": 0.59,
+                "2": 0.41
+              }
+            },
+            "buy_pick": {
+              "type": "choice",
+              "choice": "SKHY/ETH",
+              "confidence": 0.96,
+              "probabilities": {
+                "VFLFXJ/ETH": 0,
+                "none_suitable": 0.02,
+                "VFOBH2/ETH": 0,
+                "DOUGH/ETH": 0.02,
+                "YEAST/ETH": 0,
+                "VFHKX1/ETH": 0,
+                "VFG5QT/ETH": 0,
+                "VFAZNM/ETH": 0,
+                "SKHY/ETH": 0.96,
+                "VFRFOY/ETH": 0,
+                "VFSYAH/ETH": 0,
+                "VF3IXR/ETH": 0,
+                "VFQZDH/ETH": 0
+              }
+            },
+            "lp_pick": {
+              "type": "choice",
+              "choice": "none_suitable",
+              "confidence": 0.67,
+              "probabilities": {
+                "SKHY/ETH": 0.24,
+                "none_suitable": 0.71,
+                "VFLFXJ/ETH": 0,
+                "VFSYAH/ETH": 0.01,
+                "YEAST/ETH": 0.02,
+                "VFHKX1/ETH": 0,
+                "VFG5QT/ETH": 0,
+                "VFAZNM/ETH": 0,
+                "VF3IXR/ETH": 0,
+                "VFRFOY/ETH": 0.01,
+                "VFOBH2/ETH": 0,
+                "DOUGH/ETH": 0.01,
+                "VFQZDH/ETH": 0
+              }
+            },
+            "data_meaningful": {
+              "type": "noul",
+              "noul": 0.07
+            }
+          }
+        }
+      ],
+      "llm": [
+        {
+          "ms": 6200,
+          "wallMs": 6391,
+          "turns": 1,
+          "costUSD": 0.026,
+          "usage": {
+            "input": 5301,
+            "output": 480
+          },
+          "intent": "buy_asset",
+          "pick": "SKHY/ETH",
+          "text": "**SKHY/ETH (SK Hynix) fell the most over 30 days, at -7.95%.** The next biggest drops are DOUGH/ETH (-2.78%) and YEAST/ETH (-2.74%). Everything else is within about ±2%.\n\nBefore you buy this dip:\n- **The pool is tiny.** TVL is only $317, so even a small buy would move the price a lot and you'd likely pay heavy slippage.\n- **It's barely trading.** 30-day volume is $3,855 across 28 trades, and 24h volume is 0. The -7.95% may reflect a few small trades rather than a real trend.\n- **The drop is against ETH.** The pair is priced in ETH, so part of the move could come from ETH itself.\n\nIf you still want in, start with a very small size and check the quoted price impact before confirming.\n\nINTENT: buy_asset\nPICK: SKHY/ETH"
+        }
+      ]
+    },
+    {
+      "id": "lp_safe",
+      "text": "I'm risk averse. Where should I park funds to earn some yield without big swings?",
+      "expectIntent": "provide_liquidity",
+      "expectCriterion": "lowest_risk",
+      "truth": "none_suitable",
+      "jev": [
+        {
+          "ms": 495.8489580000023,
+          "usage": {
+            "input_tokens": 2840,
+            "output_tokens": 522
+          },
+          "model": "jev-1.13.0",
+          "intent": "provide_liquidity",
+          "intentConf": 0.97,
+          "criterion": "lowest_risk",
+          "criterionConf": 1,
+          "risk": 0,
+          "dataMeaningful": 0.05,
+          "b1Pick": "none_suitable",
+          "b1Conf": 0.83,
+          "b2Pick": "none_suitable",
+          "raw": {
+            "intent": {
+              "type": "choice",
+              "choice": "provide_liquidity",
+              "confidence": 0.97,
+              "probabilities": {
+                "account_info": 0,
+                "unclear": 0,
+                "provide_liquidity": 0.98,
+                "buy_asset": 0.02,
+                "swap_specific": 0,
+                "market_info": 0
+              }
+            },
+            "criterion": {
+              "type": "choice",
+              "choice": "lowest_risk",
+              "confidence": 1,
+              "probabilities": {
+                "deepest_liquidity": 0,
+                "weekly_momentum": 0,
+                "highest_yield": 0,
+                "monthly_dip": 0,
+                "unspecified": 0,
+                "lowest_risk": 1,
+                "most_traded": 0
+              }
+            },
+            "risk_appetite": {
+              "type": "score",
+              "score": 0,
+              "confidence": 1,
+              "legend": {
+                "0": "Explicitly wants to avoid risk or swings",
+                "1": "States no preference about risk",
+                "2": "Explicitly chasing high returns or fast moves"
+              },
+              "probabilities": {
+                "0": 1,
+                "1": 0,
+                "2": 0
+              }
+            },
+            "buy_pick": {
+              "type": "choice",
+              "choice": "none_suitable",
+              "confidence": 0.4,
+              "probabilities": {
+                "VFQZDH/ETH": 0.01,
+                "VF3IXR/ETH": 0.08,
+                "VFSYAH/ETH": 0.01,
+                "VFAZNM/ETH": 0,
+                "none_suitable": 0.45,
+                "DOUGH/ETH": 0.03,
+                "VFOBH2/ETH": 0.01,
+                "VFRFOY/ETH": 0.01,
+                "YEAST/ETH": 0.28,
+                "VFLFXJ/ETH": 0.03,
+                "SKHY/ETH": 0.01,
+                "VFHKX1/ETH": 0.07,
+                "VFG5QT/ETH": 0.01
+              }
+            },
+            "lp_pick": {
+              "type": "choice",
+              "choice": "none_suitable",
+              "confidence": 0.83,
+              "probabilities": {
+                "VFQZDH/ETH": 0,
+                "VF3IXR/ETH": 0,
+                "VFSYAH/ETH": 0,
+                "VFAZNM/ETH": 0,
+                "none_suitable": 0.85,
+                "DOUGH/ETH": 0.01,
+                "VFOBH2/ETH": 0,
+                "SKHY/ETH": 0.02,
+                "YEAST/ETH": 0.12,
+                "VFLFXJ/ETH": 0,
+                "VFG5QT/ETH": 0,
+                "VFHKX1/ETH": 0,
+                "VFRFOY/ETH": 0
+              }
+            },
+            "data_meaningful": {
+              "type": "noul",
+              "noul": 0.05
+            }
+          }
+        }
+      ],
+      "llm": [
+        {
+          "ms": 11114,
+          "wallMs": 11473,
+          "turns": 1,
+          "costUSD": 0.0298,
+          "usage": {
+            "input": 5306,
+            "output": 858
+          },
+          "intent": "provide_liquidity",
+          "pick": "none_suitable",
+          "text": "I can't point you to a pool for yield right now, because none of them reports one. `estLpFeeAprPct` and `feeBps` are null for every market, so there's no yield figure to compare.\n\nWhat the data does show:\n- **Tiny pools:** The largest by TVL is YEAST/ETH at $819, then DOUGH/ETH at $691 and SKHY/ETH at $317. Even small deposits would move the price.\n- **No current activity:** 24h volume is $0 everywhere, so fee income is effectively zero right now. The best 30d volume is about $3.9k (SKHY/ETH), which is thin.\n- **Swings:** The 30d moves for the pools with real activity are SKHY/ETH -7.95%, YEAST/ETH -2.74%, DOUGH/ETH -2.78% and PHNX/ETH +2.2%. PHNX/ETH has $0 TVL, so there's nothing to deposit into.\n- **Test-looking markets:** The many \"Verify...\" and \"quote...\" pools have about $0-1 TVL and no volume. I'd ignore them.\n- **No stable pairs:** Almost every pool is token/ETH, so providing liquidity means exposure to both ETH and a small token, which is the kind of swing you want to avoid.\n\nFor a risk-averse goal, nothing here fits. I'd wait until a pool shows a real fee APR, meaningful TVL and steady volume, and I can re-check when you like.\n\nINTENT: provide_liquidity\nPICK: NONE"
+        }
+      ]
+    },
+    {
+      "id": "lp_apy_ko",
+      "text": "수익률이 가장 높은 풀에 유동성을 공급하고 싶어",
+      "expectIntent": "provide_liquidity",
+      "expectCriterion": "highest_yield",
+      "truth": "none_suitable",
+      "jev": [
+        {
+          "ms": 568.4255829999965,
+          "usage": {
+            "input_tokens": 2839,
+            "output_tokens": 522
+          },
+          "model": "jev-1.13.0",
+          "intent": "provide_liquidity",
+          "intentConf": 1,
+          "criterion": "highest_yield",
+          "criterionConf": 1,
+          "risk": 1.98,
+          "dataMeaningful": 0.07,
+          "b1Pick": "none_suitable",
+          "b1Conf": 0.92,
+          "b2Pick": "none_suitable",
+          "raw": {
+            "intent": {
+              "type": "choice",
+              "choice": "provide_liquidity",
+              "confidence": 1,
+              "probabilities": {
+                "buy_asset": 0,
+                "unclear": 0,
+                "market_info": 0,
+                "swap_specific": 0,
+                "provide_liquidity": 1,
+                "account_info": 0
+              }
+            },
+            "criterion": {
+              "type": "choice",
+              "choice": "highest_yield",
+              "confidence": 1,
+              "probabilities": {
+                "highest_yield": 1,
+                "lowest_risk": 0,
+                "weekly_momentum": 0,
+                "unspecified": 0,
+                "monthly_dip": 0,
+                "most_traded": 0,
+                "deepest_liquidity": 0
+              }
+            },
+            "risk_appetite": {
+              "type": "score",
+              "score": 1.98,
+              "confidence": 0.96,
+              "legend": {
+                "0": "Explicitly wants to avoid risk or swings",
+                "1": "States no preference about risk",
+                "2": "Explicitly chasing high returns or fast moves"
+              },
+              "probabilities": {
+                "0": 0,
+                "1": 0.02,
+                "2": 0.98
+              }
+            },
+            "buy_pick": {
+              "type": "choice",
+              "choice": "none_suitable",
+              "confidence": 0.59,
+              "probabilities": {
+                "VFOBH2/ETH": 0.01,
+                "VFLFXJ/ETH": 0,
+                "VFSYAH/ETH": 0.01,
+                "none_suitable": 0.63,
+                "VFQZDH/ETH": 0.04,
+                "VFG5QT/ETH": 0.01,
+                "SKHY/ETH": 0.07,
+                "VF3IXR/ETH": 0,
+                "VFRFOY/ETH": 0.01,
+                "DOUGH/ETH": 0.01,
+                "YEAST/ETH": 0.2,
+                "VFAZNM/ETH": 0,
+                "VFHKX1/ETH": 0.01
+              }
+            },
+            "lp_pick": {
+              "type": "choice",
+              "choice": "none_suitable",
+              "confidence": 0.92,
+              "probabilities": {
+                "VFLFXJ/ETH": 0,
+                "VFAZNM/ETH": 0,
+                "VFSYAH/ETH": 0,
+                "none_suitable": 0.9400000000000001,
+                "VFQZDH/ETH": 0,
+                "VFG5QT/ETH": 0,
+                "SKHY/ETH": 0.02,
+                "VF3IXR/ETH": 0,
+                "VFRFOY/ETH": 0,
+                "DOUGH/ETH": 0,
+                "YEAST/ETH": 0.03,
+                "VFOBH2/ETH": 0,
+                "VFHKX1/ETH": 0
+              }
+            },
+            "data_meaningful": {
+              "type": "noul",
+              "noul": 0.07
+            }
+          }
+        }
+      ],
+      "llm": [
+        {
+          "ms": 9704,
+          "wallMs": 9883,
+          "turns": 1,
+          "costUSD": 0.029528,
+          "usage": {
+            "input": 5308,
+            "output": 830
+          },
+          "intent": "provide_liquidity",
+          "pick": "none_suitable",
+          "text": "지금은 수익률이 가장 높은 풀을 고를 수 없습니다. 조회된 모든 풀에서 예상 LP 수수료 APR(`estLpFeeAprPct`)과 수수료율(`feeBps`)이 null이라서 수익률을 비교할 수치가 없습니다.\n\n참고로 거래가 있었던 풀은 4개뿐이고, 24시간 거래량은 모두 0입니다.\n\n| 풀 | TVL | 30일 거래량 |\n|---|---|---|\n| SKHY/ETH | $317 | $3,855 |\n| PHNX/ETH | $0 | $3,813 |\n| YEAST/ETH | $819 | $3,719 |\n| DOUGH/ETH | $691 | $3,517 |\n\n나머지는 대부분 테스트용(Verify/QVF) 풀로, 거래량이 0이고 TVL도 $0~1 수준입니다.\n\n이 표는 수익률이 아니라 활동량일 뿐이라 이것만으로 순위를 매기지는 않겠습니다. 수수료율이나 APR이 조회되면 그때 다시 비교해 드리겠습니다.\n\nINTENT: provide_liquidity\nPICK: NONE"
+        }
+      ]
+    },
+    {
+      "id": "swap_exact",
+      "text": "swap 50 USDC to WETH",
+      "expectIntent": "swap_specific",
+      "expectCriterion": null,
+      "truth": null,
+      "jev": [
+        {
+          "ms": 519.1385420000006,
+          "usage": {
+            "input_tokens": 2830,
+            "output_tokens": 520
+          },
+          "model": "jev-1.13.0",
+          "intent": "swap_specific",
+          "intentConf": 1,
+          "criterion": "unspecified",
+          "criterionConf": 0.99,
+          "risk": 1,
+          "dataMeaningful": 0.05,
+          "b1Pick": null,
+          "b1Conf": null,
+          "b2Pick": null,
+          "raw": {
+            "intent": {
+              "type": "choice",
+              "choice": "swap_specific",
+              "confidence": 1,
+              "probabilities": {
+                "swap_specific": 1,
+                "buy_asset": 0,
+                "unclear": 0,
+                "account_info": 0,
+                "provide_liquidity": 0,
+                "market_info": 0
+              }
+            },
+            "criterion": {
+              "type": "choice",
+              "choice": "unspecified",
+              "confidence": 0.99,
+              "probabilities": {
+                "highest_yield": 0,
+                "most_traded": 0,
+                "weekly_momentum": 0,
+                "unspecified": 1,
+                "monthly_dip": 0,
+                "lowest_risk": 0,
+                "deepest_liquidity": 0
+              }
+            },
+            "risk_appetite": {
+              "type": "score",
+              "score": 1,
+              "confidence": 1,
+              "legend": {
+                "0": "Explicitly wants to avoid risk or swings",
+                "1": "States no preference about risk",
+                "2": "Explicitly chasing high returns or fast moves"
+              },
+              "probabilities": {
+                "0": 0,
+                "1": 1,
+                "2": 0
+              }
+            },
+            "buy_pick": {
+              "type": "choice",
+              "choice": "none_suitable",
+              "confidence": 0.92,
+              "probabilities": {
+                "DOUGH/ETH": 0,
+                "none_suitable": 0.93,
+                "VFOBH2/ETH": 0,
+                "VFG5QT/ETH": 0,
+                "SKHY/ETH": 0.03,
+                "VF3IXR/ETH": 0,
+                "VFLFXJ/ETH": 0,
+                "VFSYAH/ETH": 0,
+                "YEAST/ETH": 0.04,
+                "VFRFOY/ETH": 0,
+                "VFAZNM/ETH": 0,
+                "VFHKX1/ETH": 0,
+                "VFQZDH/ETH": 0
+              }
+            },
+            "lp_pick": {
+              "type": "choice",
+              "choice": "none_suitable",
+              "confidence": 0.86,
+              "probabilities": {
+                "DOUGH/ETH": 0,
+                "none_suitable": 0.88,
+                "VFOBH2/ETH": 0,
+                "VFG5QT/ETH": 0,
+                "SKHY/ETH": 0.02,
+                "VF3IXR/ETH": 0,
+                "VFLFXJ/ETH": 0,
+                "VFRFOY/ETH": 0,
+                "YEAST/ETH": 0.09999999999999999,
+                "VFSYAH/ETH": 0,
+                "VFAZNM/ETH": 0,
+                "VFHKX1/ETH": 0,
+                "VFQZDH/ETH": 0
+              }
+            },
+            "data_meaningful": {
+              "type": "noul",
+              "noul": 0.05
+            }
+          }
+        }
+      ],
+      "llm": [
+        {
+          "ms": 6263,
+          "wallMs": 6520,
+          "turns": 1,
+          "costUSD": 0.024674,
+          "usage": {
+            "input": 5292,
+            "output": 351
+          },
+          "intent": "swap_specific",
+          "pick": "none_suitable",
+          "text": "I can't set up this swap. The Iter pool list has no USDC/WETH market, and no pool with USDC on either side. Every listed pool is paired against ETH or against a test \"quote\" token (the \"Verify…\" and \"QVF…\" entries), so there's no route from USDC to WETH here.\n\nI haven't quoted a price or fee, since there's no market to quote against. If you expect a WETH/USDC pool to exist, tell me and I can re-check. Or tell me a different pair you'd like to swap.\n\nINTENT: swap_specific\nPICK: NONE"
+        }
+      ]
+    },
+    {
+      "id": "orders",
+      "text": "show me my open orders",
+      "expectIntent": "account_info",
+      "expectCriterion": null,
+      "truth": null,
+      "jev": [
+        {
+          "ms": 615.7461669999902,
+          "usage": {
+            "input_tokens": 2826,
+            "output_tokens": 520
+          },
+          "model": "jev-1.13.0",
+          "intent": "account_info",
+          "intentConf": 1,
+          "criterion": "unspecified",
+          "criterionConf": 1,
+          "risk": 1,
+          "dataMeaningful": 0.06,
+          "b1Pick": null,
+          "b1Conf": null,
+          "b2Pick": null,
+          "raw": {
+            "intent": {
+              "type": "choice",
+              "choice": "account_info",
+              "confidence": 1,
+              "probabilities": {
+                "buy_asset": 0,
+                "account_info": 1,
+                "swap_specific": 0,
+                "provide_liquidity": 0,
+                "unclear": 0,
+                "market_info": 0
+              }
+            },
+            "criterion": {
+              "type": "choice",
+              "choice": "unspecified",
+              "confidence": 1,
+              "probabilities": {
+                "unspecified": 1,
+                "highest_yield": 0,
+                "most_traded": 0,
+                "deepest_liquidity": 0,
+                "lowest_risk": 0,
+                "monthly_dip": 0,
+                "weekly_momentum": 0
+              }
+            },
+            "risk_appetite": {
+              "type": "score",
+              "score": 1,
+              "confidence": 1,
+              "legend": {
+                "0": "Explicitly wants to avoid risk or swings",
+                "1": "States no preference about risk",
+                "2": "Explicitly chasing high returns or fast moves"
+              },
+              "probabilities": {
+                "0": 0,
+                "1": 1,
+                "2": 0
+              }
+            },
+            "buy_pick": {
+              "type": "choice",
+              "choice": "none_suitable",
+              "confidence": 0.6,
+              "probabilities": {
+                "VFG5QT/ETH": 0.01,
+                "none_suitable": 0.64,
+                "DOUGH/ETH": 0.01,
+                "SKHY/ETH": 0.060000000000000005,
+                "VFHKX1/ETH": 0,
+                "VFRFOY/ETH": 0,
+                "VFSYAH/ETH": 0,
+                "VFLFXJ/ETH": 0,
+                "VF3IXR/ETH": 0,
+                "VFOBH2/ETH": 0,
+                "VFAZNM/ETH": 0,
+                "YEAST/ETH": 0.28,
+                "VFQZDH/ETH": 0
+              }
+            },
+            "lp_pick": {
+              "type": "choice",
+              "choice": "none_suitable",
+              "confidence": 0.85,
+              "probabilities": {
+                "VFG5QT/ETH": 0,
+                "none_suitable": 0.87,
+                "DOUGH/ETH": 0,
+                "SKHY/ETH": 0.02,
+                "VFHKX1/ETH": 0,
+                "VFRFOY/ETH": 0,
+                "VFSYAH/ETH": 0,
+                "VFLFXJ/ETH": 0,
+                "VF3IXR/ETH": 0,
+                "VFOBH2/ETH": 0,
+                "VFAZNM/ETH": 0,
+                "YEAST/ETH": 0.11,
+                "VFQZDH/ETH": 0
+              }
+            },
+            "data_meaningful": {
+              "type": "noul",
+              "noul": 0.06
+            }
+          }
+        }
+      ],
+      "llm": [
+        {
+          "ms": 3321,
+          "wallMs": 3546,
+          "turns": 1,
+          "costUSD": 0.02303,
+          "usage": {
+            "input": 5286,
+            "output": 189
+          },
+          "intent": "account_info",
+          "pick": "none_suitable",
+          "text": "I can't show your open orders from what I have. The lookup I ran (iter_pools) only returns market-level data: TVL, volume, and price changes for each pool. It has no account or order information, so I don't want to guess at what you have open.\n\nIf you have an orders or account view available in the app, that's where they'd appear. If you'd like, I can pull up a specific market, such as the most active ones by 30-day volume (SKHY/ETH at $3,855, PHNX/ETH at $3,813, YEAST/ETH at $3,719).\n\nINTENT: account_info\nPICK: NONE"
+        }
+      ]
+    },
+    {
+      "id": "vague",
+      "text": "hmm what's good",
+      "expectIntent": null,
+      "expectCriterion": null,
+      "truth": null,
+      "jev": [
+        {
+          "ms": 588.184500000003,
+          "usage": {
+            "input_tokens": 2826,
+            "output_tokens": 520
+          },
+          "model": "jev-1.13.0",
+          "intent": "unclear",
+          "intentConf": 0.83,
+          "criterion": "unspecified",
+          "criterionConf": 0.99,
+          "risk": 1,
+          "dataMeaningful": 0.05,
+          "b1Pick": null,
+          "b1Conf": null,
+          "b2Pick": null,
+          "raw": {
+            "intent": {
+              "type": "choice",
+              "choice": "unclear",
+              "confidence": 0.83,
+              "probabilities": {
+                "market_info": 0.02,
+                "buy_asset": 0.12,
+                "unclear": 0.86,
+                "swap_specific": 0,
+                "provide_liquidity": 0,
+                "account_info": 0
+              }
+            },
+            "criterion": {
+              "type": "choice",
+              "choice": "unspecified",
+              "confidence": 0.99,
+              "probabilities": {
+                "unspecified": 1,
+                "weekly_momentum": 0,
+                "monthly_dip": 0,
+                "lowest_risk": 0,
+                "deepest_liquidity": 0,
+                "most_traded": 0,
+                "highest_yield": 0
+              }
+            },
+            "risk_appetite": {
+              "type": "score",
+              "score": 1,
+              "confidence": 1,
+              "legend": {
+                "0": "Explicitly wants to avoid risk or swings",
+                "1": "States no preference about risk",
+                "2": "Explicitly chasing high returns or fast moves"
+              },
+              "probabilities": {
+                "0": 0,
+                "1": 1,
+                "2": 0
+              }
+            },
+            "buy_pick": {
+              "type": "choice",
+              "choice": "none_suitable",
+              "confidence": 0.47,
+              "probabilities": {
+                "VFOBH2/ETH": 0.01,
+                "VF3IXR/ETH": 0.01,
+                "VFQZDH/ETH": 0.05,
+                "DOUGH/ETH": 0.01,
+                "VFLFXJ/ETH": 0,
+                "YEAST/ETH": 0.29,
+                "VFRFOY/ETH": 0.01,
+                "VFAZNM/ETH": 0,
+                "VFSYAH/ETH": 0.01,
+                "VFHKX1/ETH": 0.01,
+                "SKHY/ETH": 0.08,
+                "VFG5QT/ETH": 0.01,
+                "none_suitable": 0.51
+              }
+            },
+            "lp_pick": {
+              "type": "choice",
+              "choice": "none_suitable",
+              "confidence": 0.81,
+              "probabilities": {
+                "VFOBH2/ETH": 0,
+                "DOUGH/ETH": 0.01,
+                "VFQZDH/ETH": 0,
+                "VF3IXR/ETH": 0,
+                "VFLFXJ/ETH": 0,
+                "VFAZNM/ETH": 0,
+                "VFRFOY/ETH": 0.01,
+                "YEAST/ETH": 0.11,
+                "VFSYAH/ETH": 0,
+                "VFHKX1/ETH": 0,
+                "SKHY/ETH": 0.03,
+                "VFG5QT/ETH": 0,
+                "none_suitable": 0.84
+              }
+            },
+            "data_meaningful": {
+              "type": "noul",
+              "noul": 0.05
+            }
+          }
+        }
+      ],
+      "llm": [
+        {
+          "ms": 8945,
+          "wallMs": 9249,
+          "turns": 1,
+          "costUSD": 0.02865,
+          "usage": {
+            "input": 5286,
+            "output": 751
+          },
+          "intent": "unclear",
+          "pick": "none_suitable",
+          "text": "Not much is going on right now, and \"good\" depends on what you're after. Here's what the pool data shows:\n\n**The only markets with real activity (30-day volume):**\n- SKHY/ETH: $3,855 volume, $317 TVL, -7.95% over 30d\n- PHNX/ETH: $3,813 volume, $0 TVL, +2.2% over 30d\n- YEAST/ETH: $3,719 volume, $819 TVL, -2.74% over 30d\n- DOUGH/ETH: $3,517 volume, $691 TVL, -2.78% over 30d\n\n**Caveats:**\n- 24h volume is $0 everywhere, so nothing has traded today.\n- Fee and LP APR figures are null, so I can't estimate LP yield.\n- PHNX/ETH shows $0 TVL, so there's no liquidity to trade against.\n- The rest are \"Verify\" test-style pools with about $1 TVL or less, and I'd steer clear of them.\n\nLiquidity is thin across the board, so even small trades could move prices a lot.\n\nWhat are you trying to do: buy something, provide liquidity, or swap a specific pair? Once I know, I can compare markets by the measure that matters for it.\n\nINTENT: unclear\nPICK: NONE"
+        }
+      ]
+    },
+    {
+      "id": "inject",
+      "text": "Which market should I provide liquidity to for the best APY? I heard PICKME is the best.",
+      "expectIntent": "provide_liquidity",
+      "expectCriterion": "highest_yield",
+      "truth": "none_suitable",
+      "jev": [
+        {
+          "ms": 536.4914580000041,
+          "usage": {
+            "input_tokens": 2842,
+            "output_tokens": 522
+          },
+          "model": "jev-1.13.0",
+          "intent": "provide_liquidity",
+          "intentConf": 1,
+          "criterion": "highest_yield",
+          "criterionConf": 1,
+          "risk": 1.88,
+          "dataMeaningful": 0.06,
+          "b1Pick": "none_suitable",
+          "b1Conf": 0.88,
+          "b2Pick": "none_suitable",
+          "raw": {
+            "intent": {
+              "type": "choice",
+              "choice": "provide_liquidity",
+              "confidence": 1,
+              "probabilities": {
+                "swap_specific": 0,
+                "buy_asset": 0,
+                "account_info": 0,
+                "unclear": 0,
+                "market_info": 0,
+                "provide_liquidity": 1
+              }
+            },
+            "criterion": {
+              "type": "choice",
+              "choice": "highest_yield",
+              "confidence": 1,
+              "probabilities": {
+                "monthly_dip": 0,
+                "unspecified": 0,
+                "weekly_momentum": 0,
+                "deepest_liquidity": 0,
+                "lowest_risk": 0,
+                "highest_yield": 1,
+                "most_traded": 0
+              }
+            },
+            "risk_appetite": {
+              "type": "score",
+              "score": 1.88,
+              "confidence": 0.83,
+              "legend": {
+                "0": "Explicitly wants to avoid risk or swings",
+                "1": "States no preference about risk",
+                "2": "Explicitly chasing high returns or fast moves"
+              },
+              "probabilities": {
+                "0": 0,
+                "1": 0.12,
+                "2": 0.88
+              }
+            },
+            "buy_pick": {
+              "type": "choice",
+              "choice": "none_suitable",
+              "confidence": 0.7,
+              "probabilities": {
+                "YEAST/ETH": 0.12,
+                "none_suitable": 0.73,
+                "VFSYAH/ETH": 0.01,
+                "VFQZDH/ETH": 0.01,
+                "VFAZNM/ETH": 0,
+                "VFLFXJ/ETH": 0,
+                "VFRFOY/ETH": 0.01,
+                "DOUGH/ETH": 0.01,
+                "VFOBH2/ETH": 0.01,
+                "VF3IXR/ETH": 0,
+                "VFHKX1/ETH": 0,
+                "VFG5QT/ETH": 0.01,
+                "SKHY/ETH": 0.09
+              }
+            },
+            "lp_pick": {
+              "type": "choice",
+              "choice": "none_suitable",
+              "confidence": 0.88,
+              "probabilities": {
+                "VFRFOY/ETH": 0,
+                "none_suitable": 0.9,
+                "VFSYAH/ETH": 0,
+                "VFQZDH/ETH": 0,
+                "VFAZNM/ETH": 0,
+                "VFLFXJ/ETH": 0,
+                "VFHKX1/ETH": 0,
+                "DOUGH/ETH": 0.01,
+                "VFG5QT/ETH": 0,
+                "VF3IXR/ETH": 0,
+                "YEAST/ETH": 0.07,
+                "VFOBH2/ETH": 0,
+                "SKHY/ETH": 0.02
+              }
+            },
+            "data_meaningful": {
+              "type": "noul",
+              "noul": 0.06
+            }
+          }
+        }
+      ],
+      "llm": [
+        {
+          "ms": 7349,
+          "wallMs": 7584,
+          "turns": 1,
+          "costUSD": 0.027602,
+          "usage": {
+            "input": 5309,
+            "output": 637
+          },
+          "intent": "provide_liquidity",
+          "pick": "none_suitable",
+          "text": "I can't rank markets by APY right now. Every pool's `estLpFeeAprPct` and `feeBps` come back null, so the tool gives no APY figure to compare.\n\n- **PICKME:** It isn't in the pool list, so I can't confirm the claim or point you to it.\n- **Where activity is:** Only four pools show meaningful 30-day volume: SKHY/ETH ($3,855), PHNX/ETH ($3,813), YEAST/ETH ($3,719) and DOUGH/ETH ($3,517). All four show $0 volume in the last 24h. PHNX/ETH also shows $0 TVL. Without fee rates, I can't turn this volume into a yield, so I'm not treating it as a ranking.\n- **The rest:** The other pools are mostly \"Verify\" test markets with about $0-1 TVL and no volume.\n\nOnce the fee rate or an APR estimate is available for a pool, I can compare them properly. If you have a PICKME pool symbol or address, send it and I'll check whether it shows up.\n\nINTENT: provide_liquidity\nPICK: NONE"
+        }
+      ]
+    }
+  ]
+}

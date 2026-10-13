@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" class="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>eziee — Brand direction</title>
+<link rel="stylesheet" href="../../packages/ui/src/tokens.css">
+<style>
+@font-face{font-family:Satoshi;src:url('../../packages/ui/fonts/Satoshi-Variable.woff2') format('woff2');font-weight:300 900;font-display:swap}
+*{box-sizing:border-box}body{margin:0;background:var(--m-background);color:var(--m-text-primary);font-family:Satoshi,Arial,sans-serif}button,a{font:inherit}button{cursor:pointer}a{color:var(--m-primary-fg)}button:focus-visible,a:focus-visible{outline:2px solid var(--m-primary-fg);outline-offset:5px}.wrap{max-width:1320px;margin:auto;padding:32px 48px}.top{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--m-border);padding-bottom:24px}.identity{display:flex;align-items:center;gap:12px;font-size:18px;font-weight:800}.mark{display:grid;place-items:center;width:40px;height:40px;border-radius:8px;background:var(--m-logo-ground);color:var(--m-logo);font:30px monospace}.mono{font-family:ui-monospace,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase}.muted{color:var(--m-text-secondary)}.toggle{min-height:44px;border:1px solid var(--m-border-strong);border-radius:8px;background:transparent;color:var(--m-text-primary);padding:0 16px}.intro{display:grid;grid-template-columns:1.6fr 1fr;gap:64px;padding:64px 0 48px}.eyebrow{display:flex;align-items:center;gap:12px}.eyebrow:before{content:'';width:32px;height:2px;background:var(--m-primary-fg)}h1{font-size:clamp(44px,6.5vw,86px);font-weight:800;line-height:.98;letter-spacing:-.055em;margin:26px 0}h1 span{color:var(--m-primary-fg)}.lede{font-size:17px;line-height:1.6;max-width:470px;color:var(--m-text-secondary)}.rationale{align-self:end;border-left:1px solid var(--m-border);padding:0 0 8px 28px}.rationale p{font-size:15px;line-height:1.6;color:var(--m-text-secondary)}.rationale strong{color:var(--m-text-primary)}.section-label{display:flex;justify-content:space-between;gap:16px;align-items:center;margin:20px 0}.palette{display:grid;grid-template-columns:2fr 1.3fr 1.3fr 1fr 1fr;gap:8px}.swatch{min-height:164px;padding:18px;display:flex;flex-direction:column;justify-content:space-between;border-radius:3px;color:#111310}.swatch small{font:12px ui-monospace,monospace}.swatch b{font-size:17px}.swatch.ink{color:#F3F4ED;border:1px solid #394032}.preview{display:grid;grid-template-columns:1.2fr 1fr;gap:32px;margin-top:44px}.panel{border:1px solid var(--m-border);background:var(--m-surface);border-radius:12px;padding:24px}.panel h2{font-size:26px;letter-spacing:-.03em;margin:22px 0 8px}.panel p{font-size:14px;line-height:1.65;color:var(--m-text-secondary)}.action{display:inline-flex;align-items:center;justify-content:space-between;gap:40px;min-height:46px;padding:0 18px;background:var(--m-primary);color:var(--m-on-primary);border-radius:8px;font-size:14px;font-weight:800}.example{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--m-text-secondary)}.row{display:flex;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px solid var(--m-border);font-size:13px}.row span{color:var(--m-text-secondary)}.row b{font-weight:600}.path{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:22px;font-size:12px}.path strong{border:1px solid var(--m-border-strong);border-radius:5px;padding:8px 10px}.path .selected{background:var(--m-surface-selected);color:var(--m-on-surface-selected);border-color:var(--m-primary-fg)}footer{display:flex;justify-content:space-between;gap:20px;border-top:1px solid var(--m-border);margin-top:40px;padding:24px 0 0;color:var(--m-text-secondary);font-size:12px;line-height:1.7}footer a{margin-left:12px}.semantic{display:flex;gap:16px;flex-wrap:wrap;margin-top:20px;font-size:12px}.semantic span:before{content:'';display:inline-block;width:6px;height:6px;margin:0 7px 1px 0;border-radius:50%;background:currentColor}.ok{color:var(--m-success-fg)}.warn{color:var(--m-warning)}.error{color:var(--m-error-fg)}
+@media(max-width:700px){.wrap{padding:20px}.top{gap:12px}.intro{grid-template-columns:1fr;gap:24px;padding:40px 0 28px}.rationale{padding-left:18px}.palette{grid-template-columns:repeat(2,1fr)}.swatch:first-child{grid-column:1/-1}.swatch{min-height:120px}.preview{grid-template-columns:1fr;gap:16px}.section-label{align-items:start}.section-label span:last-child{text-align:right}.identity{font-size:15px}footer{flex-direction:column}footer a{margin:0 12px 0 0}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top"><div class="identity"><span class="mark" aria-hidden="true">»</span> eziee <span class="mono muted">/ Brand 01</span></div><button class="toggle" id="theme" type="button">View light mode</button></header>
+<main>
+<section class="intro">
+<div><div class="eyebrow mono muted">AI desk for DeFi</div><h1>Your intent.<br><span>Into action.</span></h1><p class="lede">One desk for your next move across DeFi. Fast decisions. Clear actions. Your control.</p></div>
+<div class="rationale"><div class="mono">The direction / Acid + ink</div><p><strong>GGEZ’s graphic attitude.</strong> Acid yellow, hard contrast, oversized type and small flashes of pink and cyan. Translated into a focused working desk.</p><p><strong>An identity of its own.</strong> The desk is the product. Jev is the intended decision engine. Iter is one of the protocol integrations.</p></div>
+</section>
+<div class="section-label mono muted"><span>01 / Core palette</span><span>Neutral first. Lime leads.</span></div>
+<section class="palette" aria-label="Brand palette">
+<div class="swatch" style="background:#D7F43B"><small>01 / PRIMARY</small><b>Acid lime</b><small>#D7F43B</small></div>
+<div class="swatch ink" style="background:#10120F"><small>02 / GROUND</small><b>Ink</b><small>#10120F</small></div>
+<div class="swatch" style="background:#F3F4ED"><small>03 / NEUTRAL</small><b>Chalk</b><small>#F3F4ED</small></div>
+<div class="swatch" style="background:#55DCE0"><small>04 / SUPPORT</small><b>Signal cyan</b><small>#55DCE0</small></div>
+<div class="swatch" style="background:#F388CA"><small>05 / EXPRESSION</small><b>Pop pink</b><small>#F388CA</small></div>
+</section>
+<section class="preview" aria-label="Brand applications">
+<div class="panel"><div class="mono muted">02 / Product voice</div><h2>Set the intent.<br>Keep the control.</h2><p>Explore markets, swap assets, and manage positions across DeFi. You set the intent. Your wallet controls the action.</p><span class="action">Preview action <span aria-hidden="true">↗</span></span><p class="example">Visual specimen — no transaction</p><div class="semantic"><span class="ok">Confirmed</span><span class="warn">Review required</span><span class="error">Failed</span></div></div>
+<div class="panel"><div class="mono muted">03 / Product architecture</div><div class="row"><span>The workspace</span><b>eziee</b></div><div class="row"><span>Intended decision engine</span><b>Jev / TypeSafe</b></div><div class="row"><span>Protocol integrations</span><b>Iter + future MCPs</b></div><div class="row"><span>Action authority</span><b>Your wallet policy</b></div><div class="path"><strong>Intent</strong><span aria-hidden="true">→</span><strong class="selected">Decision</strong><span aria-hidden="true">→</span><strong>Action</strong></div><p>Architecture direction. Jev integration and DeFi-specific performance still need implementation and evaluation.</p></div>
+</section>
+</main>
+<footer><span>eziee · Direction: 20 September 2026<br>Uses the same color tokens as the app. Satoshi / monospace.</span><span><a href="../../DESIGN.md">Design contract</a><a href="https://www.youtube.com/watch?v=kgAVoL49H3M">GGEZ reference</a><a href="https://typesafe.ai/blog/introducing-system-one-models-and-jev">Jev reference</a></span></footer>
+</div>
+<script>
+const button=document.getElementById('theme');
+button.addEventListener('click',()=>{const dark=document.documentElement.classList.toggle('dark');button.textContent=dark?'View light mode':'View dark mode';});
+</script>
+</body>
+</html>

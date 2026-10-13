@@ -1,0 +1,131 @@
+/* eziee — acid lime / ink. See /DESIGN.md.
+   The --m-* API is retained for the app and isolated wallet; the palette is
+   owned here, independently of Rate. Ramps always run light to dark. */
+:root {
+  color-scheme: light;
+  --m-primary-100: #F2F9CF;
+  --m-primary-200: #E8F5A3;
+  --m-primary-300: #DEEF72;
+  --m-primary: #D7F43B;
+  --m-primary-hover: #C6E32A;
+  --m-primary-600: #657B10;
+  --m-primary-700: #485A08;
+  --m-primary-800: #293305;
+  --m-primary-fg: #485A08;
+  --m-on-primary: #111310;
+  --m-logo: #D7F43B;
+  --m-logo-ground: #111310;
+
+  --m-secondary-100: #DFF7F8;
+  --m-secondary-200: #B4EFF0;
+  --m-secondary-300: #83E5E8;
+  --m-secondary: #55DCE0;
+  --m-secondary-500: #269DA4;
+  --m-secondary-600: #18777E;
+  --m-secondary-700: #12575D;
+  --m-secondary-800: #0E353A;
+  --m-accent: #F388CA;
+
+  --m-background: #F3F4ED;
+  --m-surface-deep: #E5E7DD;
+  --m-surface: #FCFCF8;
+  --m-surface-2: #E7E9DF;
+  --m-border: #C8CCC0;
+  --m-border-strong: #818879;
+  --m-text-primary: #171A14;
+  --m-text-secondary: #596151;
+  --m-text-secondary-2: #626959;
+  --m-text-primary-inverse: #F3F4ED;
+  --m-text-primary-inverse-12: rgba(243, 244, 237, 0.12);
+  --m-text-primary-12: rgba(23, 26, 20, 0.12);
+  --m-surface-selected: #EAF2C5;
+  --m-on-surface-selected: #354307;
+
+  /* Success, warnings and losses stay distinct from the brand accents. */
+  --m-success-100: #E1F4E9;
+  --m-success-200: #B9E5CA;
+  --m-success-300: #8BD3A9;
+  --m-success: #21734B;
+  --m-success-500: #308A60;
+  --m-success-600: #216B49;
+  --m-success-700: #194D35;
+  --m-success-800: #123626;
+  --m-success-fg: #216B49;
+  --m-surface-success: #E1F4E9;
+  --m-on-surface-success: #216B49;
+  --m-warning-100: #FFF1D6;
+  --m-warning-200: #F9DCA7;
+  --m-warning-300: #EDBD70;
+  --m-warning: #875910;
+  --m-warning-500: #A97525;
+  --m-warning-600: #815719;
+  --m-warning-700: #624212;
+  --m-warning-800: #382B17;
+  --m-error-100: #FCE8E3;
+  --m-error-200: #F5C5B9;
+  --m-error-300: #EDA18C;
+  --m-error: #AE3928;
+  --m-error-500: #B84F3E;
+  --m-error-600: #963C2C;
+  --m-error-700: #702E22;
+  --m-error-800: #3A211C;
+  --m-error-fg: #963C2C;
+
+  --m-text-on-media: #FCFCF8;
+  --m-text-on-media-60: rgba(252, 252, 248, 0.6);
+  --m-scrim: rgba(243, 244, 237, 0.88);
+  --m-scrim-edge: linear-gradient(180deg, rgba(243, 244, 237, 0.7), transparent 40%, transparent 60%, rgba(243, 244, 237, 0.8));
+  --m-chart-grid: #DDE1D4;
+  --m-chart-axis: #596151;
+  --m-chart-buy: #21734B;
+  --m-chart-sell: #AE3928;
+  --m-chart-current: #18777E;
+  --m-chart-highlight: #657B10;
+  --m-candle-bull-fill: #21734B;
+  --m-candle-bull-border: #194D35;
+  --m-candle-bear-fill: #AE3928;
+  --m-candle-bear-border: #702E22;
+  --m-candle-wick: #626959;
+  --m-graphic-bid: #55DCE0;
+  --m-graphic-ask: #F388CA;
+}
+
+.dark {
+  color-scheme: dark;
+  --m-primary-fg: #D7F43B;
+  --m-primary-hover: #E3FA75;
+  --m-background: #10120F;
+  --m-surface-deep: #0B0D0A;
+  --m-surface: #181C16;
+  --m-surface-2: #242A20;
+  --m-border: #394032;
+  --m-border-strong: #79836F;
+  --m-text-primary: #F3F4ED;
+  --m-text-secondary: #ABB3A0;
+  --m-text-secondary-2: #9CA690;
+  --m-text-primary-inverse: #10120F;
+  --m-text-primary-inverse-12: rgba(16, 18, 15, 0.12);
+  --m-text-primary-12: rgba(243, 244, 237, 0.12);
+  --m-surface-selected: #303B1B;
+  --m-on-surface-selected: #E4F3AA;
+  --m-success: #78D5A3;
+  --m-success-fg: #8BD3A9;
+  --m-surface-success: #172E22;
+  --m-on-surface-success: #8BD3A9;
+  --m-warning: #EDBD70;
+  --m-error: #EDA18C;
+  --m-error-fg: #EDA18C;
+  --m-scrim: rgba(16, 18, 15, 0.88);
+  --m-scrim-edge: linear-gradient(180deg, rgba(16, 18, 15, 0.7), transparent 40%, transparent 60%, rgba(16, 18, 15, 0.8));
+  --m-chart-grid: #394032;
+  --m-chart-axis: #ABB3A0;
+  --m-chart-buy: #78D5A3;
+  --m-chart-sell: #EDA18C;
+  --m-chart-current: #55DCE0;
+  --m-chart-highlight: #D7F43B;
+  --m-candle-bull-fill: #78D5A3;
+  --m-candle-bull-border: #A3E8BF;
+  --m-candle-bear-fill: #EDA18C;
+  --m-candle-bear-border: #F5C5B9;
+  --m-candle-wick: #ABB3A0;
+}

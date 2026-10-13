@@ -1,0 +1,55 @@
+name: Deploy to Vercel
+
+on:
+  push:
+    branches: ['**']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: vercel-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      VERCEL_ORG_ID: team_dIvEyXYW5ISWlZzCEi94yqL5
+      VERCEL_PROJECT_ID: prj_h623SzQCkIb6enGs5x6t5tbofn1A
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install Vercel CLI
+        run: npm install --global vercel@59.23.2
+
+      - name: Deploy
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          PRODUCTION_BRANCH: ${{ vars.VERCEL_PRODUCTION_BRANCH || 'main' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -z "$VERCEL_TOKEN" ]]; then
+            echo "::error::Add the VERCEL_TOKEN repository secret before deploying."
+            exit 1
+          fi
+          args=(--yes --token "$VERCEL_TOKEN")
+          if [[ "$GITHUB_REF_NAME" == "$PRODUCTION_BRANCH" ]]; then
+            args+=(--prod)
+          fi
+          vercel deploy "${args[@]}" > deployment-url.txt
+          cat deployment-url.txt
+          {
+            echo '### Vercel deployment'
+            echo
+            cat deployment-url.txt
+          } >> "$GITHUB_STEP_SUMMARY"

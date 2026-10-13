@@ -1,0 +1,67 @@
+name: CI
+
+# The README's own checks (`pnpm typecheck && pnpm lint && pnpm test`, `pnpm build`, `pnpm e2e`), on a machine that
+# is doing nothing else. No secret is used: the unit tests mock what they call, and the end-to-end suite runs the real app
+# against a scripted model and mock chains (apps/web/playwright.config.ts).
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+# A newer push to the same branch makes the older run pointless.
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Typecheck, lint, unit tests, build
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      # Actions are pinned to a commit, with the release it is in the comment.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: pnpm/action-setup@ea17c68df8912ef543352723c149a84f56e3d413 # v6.1.0, version from package.json "packageManager"
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      # packages/protocols' test script ends with scripts/verify-addresses.ts, which shells out to Foundry's `cast code`.
+      - uses: foundry-rs/foundry-toolchain@908c540300062bd5a7e473851cdb4282204cee09 # v1.9.1
+        with:
+          version: stable
+      - run: pnpm typecheck
+      - run: pnpm lint
+      # `packages/protocols` also checks its vendored contract addresses against the live testnets here
+      # (docs/superpowers/STATUS.md, decision 5), so this step needs the network and can fail when a testnet is down.
+      - run: pnpm test
+      - run: pnpm build
+
+  e2e:
+    name: End-to-end (Chromium)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: pnpm/action-setup@ea17c68df8912ef543352723c149a84f56e3d413 # v6.1.0
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      # Chromium only: the suite's virtual passkey authenticator is a Chrome DevTools Protocol feature.
+      - run: pnpm --filter @repo/web exec playwright install --with-deps chromium
+      - run: pnpm e2e
+      # The traces Playwright keeps for a failed test are the only way to see what the browser saw.
+      - if: failure()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: playwright-traces
+          path: apps/web/test-results
+          if-no-files-found: ignore
+          retention-days: 7

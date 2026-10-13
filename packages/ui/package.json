@@ -1,0 +1,21 @@
+{
+  "name": "@repo/ui",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./brand": "./src/brand.ts",
+    "./cn": "./src/cn.ts",
+    "./tokens.css": "./src/tokens.css",
+    "./fonts/*": "./fonts/*"
+  },
+  "scripts": { "typecheck": "tsc --noEmit", "lint": "eslint .", "test": "vitest run" },
+  "dependencies": { "clsx": "^2.1.1", "tailwind-merge": "^3.0.2" },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "eslint": "^9.0.0",
+    "typescript": "^5.8.0",
+    "vitest": "^2.1.9"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "@repo/agent",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./models": "./src/models.ts",
+    "./tools": "./src/tools.ts",
+    "./prompt": "./src/prompt.ts",
+    "./pricing": "./src/pricing.ts",
+    "./limits": "./src/limits.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@repo/protocols": "workspace:*",
+    "ai": "^7.0.107",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "@types/node": "^22.0.0",
+    "eslint": "^9.0.0",
+    "typescript": "^5.8.0",
+    "viem": "^2.56.8",
+    "vitest": "^2.1.9"
+  }
+}

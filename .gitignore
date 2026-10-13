@@ -1,0 +1,31 @@
+node_modules
+.next
+dist
+.turbo
+.env
+.env.local
+.env*.local
+.omc/
+!.omc/skills/
+test-results
+playwright-report
+*.tsbuildinfo
+.data
+.vercel
+
+# HyperFrames video build output (keep the project source, not the renders)
+videos/*/renders/
+videos/*/snapshots/
+videos/*/.hyperframes/
+videos/*/node_modules/
+videos/*/.thumbnails/
+videos/*/.waveform-cache/
+.DS_Store
+
+# Local media: videos, motion frames, deck and screenshots stay out of git
+videos/
+docs/brand/motion/frames-dark/
+docs/brand/motion/frames-light/
+docs/eziee-pre-seed-deck.pdf
+docs/screenshots/
+e2e-live/out/

@@ -1,0 +1,511 @@
+{
+  "manifestVersion": 1,
+  "id": "rate",
+  "name": "Rate",
+  "version": "0.7.0",
+  "homepage": "https://rate.limo",
+  "chains": [
+    5042002,
+    11155931,
+    10143
+  ],
+  "contracts": {
+    "10143": {
+      "matchingEngine": {
+        "address": "0x0ED782B8079529f7385c3eDA9fAf1EaA0DbC6a17",
+        "role": "router",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "orderbookFactory": {
+        "address": "0x14325a62d71848c1Ed358CEA3EfAE883920C13bf",
+        "role": "factory",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "stopOrderEngine": {
+        "address": "0xdb8d2DeeC9c0C11DAc7711d262e7a19abAb8b5Ce",
+        "role": "other",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "bandPoolFactory": {
+        "address": "0x8DD91dE83e3c097C57A81f4f78daC0d2018cBa28",
+        "role": "factory",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "positionManager": {
+        "address": "0x0AdBf7ec00A03BE9d5556Adb2600e2552029C63c",
+        "role": "router",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "swapRouter": {
+        "address": "0xC55dc745240DD91aD9BD927a346aF73428568A85",
+        "role": "router",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "assetGenerator": {
+        "address": "0xc3958aD9E11baEA5D48415eEa6Ea64c2f705dA3E",
+        "role": "router",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "ladderBuyer": {
+        "address": "0x1680640B3B19636E6C0E0aeb95c4DA083a3Fb134",
+        "role": "router",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "wrappedNative": {
+        "address": "0x3CCd951423b5D41Af9D6400a3a99B5eAbC52002e",
+        "role": "other",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "presaleLaunch": {
+        "address": "0x9Eaa9502dadE1E0A8d9f471696C5E61Bec575965",
+        "role": "other",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "disperse": {
+        "address": "0xC4A3a30E77c2F056ABea150e8E096D4dad539d12",
+        "role": "other",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      }
+    },
+    "5042002": {
+      "matchingEngine": {
+        "address": "0xeB2d3895D312C5d003D15e6b6b37B2211b201B3C",
+        "role": "router",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "orderbookFactory": {
+        "address": "0xeA8507CF9EbA665eC7B0c742C701930B034051d4",
+        "role": "factory",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "stopOrderEngine": {
+        "address": "0x428516cc93F25916d93683345ea62954F48C4576",
+        "role": "other",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "bandPoolFactory": {
+        "address": "0x980F2dFDfFe2E3397d2D6Ba51D48eE67D8558642",
+        "role": "factory",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "positionManager": {
+        "address": "0xf847E02c2309a1B4BF441774db35c7eFd43c445d",
+        "role": "router",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "swapRouter": {
+        "address": "0x7D04EE4B30D2a0B8687bbC4AF0a1cCACa219b727",
+        "role": "router",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "assetGenerator": {
+        "address": "0xf1f17d971f6fc2f898F0D66c1a7bC8A6E34bE221",
+        "role": "router",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "presaleLaunch": {
+        "address": "0x67DAfE22AD5CB4b8f0bBb6B443E279862F74fDFc",
+        "role": "other",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "disperse": {
+        "address": "0xC04b395198FA568630d64e31648f8fe03f998959",
+        "role": "other",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "ladderBuyer": {
+        "address": "0xF7f377f23b7d14DDAEbaa0e94DAA5C770Da5ebBe",
+        "role": "router",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      }
+    },
+    "11155931": {
+      "matchingEngine": {
+        "address": "0xEBC3DD72a713aeC32688672613Ab2129d037c31A",
+        "role": "router",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "orderbookFactory": {
+        "address": "0xed2849621F400855709306D93b221Fe6554C5062",
+        "role": "factory",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "positionManager": {
+        "address": "0x88c6e720F6E1B8EE87d444806564A4473D1310D9",
+        "role": "router",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "swapRouter": {
+        "address": "0x0ab2D96fd8a6c6B02F00E90fB6a00acC8393960a",
+        "role": "router",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "stopOrderEngine": {
+        "address": "0x3f2BD4F0695bb42887BE7FB6326c74A9F9D1eF37",
+        "role": "other",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "assetGenerator": {
+        "address": "0x6acC01674F5167aF6A890b8EadF1E037cAcE49DB",
+        "role": "router",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "presaleLaunch": {
+        "address": "0xB5D9049D10DC1f8d752B2ad5b2ba420A49e27e28",
+        "role": "other",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "bandPoolFactory": {
+        "address": "0x2ADd89C671F79A44982274bBe629d8b0dD6A2a07",
+        "role": "factory",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "disperse": {
+        "address": "0x43790B330294B39FBcC091c6084E4B59Cf025490",
+        "role": "other",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "ladderBuyer": {
+        "address": "0xB70582b91F97C35Fc7CBEB6414D36E179Eb82d62",
+        "role": "router",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      },
+      "wrappedNative": {
+        "address": "0xd5C4729E75B293A2BF194dAb72FD49D16b6f300b",
+        "role": "other",
+        "source": "https://github.com/iter-cx/iter-monorepo/blob/main/packages/deployments/deployments.json",
+        "proxy": {
+          "type": "none"
+        }
+      }
+    }
+  },
+  "tokens": {
+    "10143": [
+      {
+        "address": "0x7Eff1500024D9393BE3Ad2B5e643C540018365D8",
+        "symbol": "WETH",
+        "name": "Wrapped Ether",
+        "decimals": 18,
+        "trust": "canonical"
+      },
+      {
+        "address": "0x534b2f3A21130d7a60830c2Df862319e593943A3",
+        "symbol": "USDC",
+        "name": "USDC",
+        "decimals": 6,
+        "trust": "listed"
+      },
+      {
+        "address": "0xec14178A07715621A74039eEaf73ea1CbF2A4218",
+        "symbol": "tUSD",
+        "name": "Test USD",
+        "decimals": 6,
+        "trust": "listed"
+      }
+    ],
+    "5042002": [
+      {
+        "address": "0x3600000000000000000000000000000000000000",
+        "symbol": "USDC",
+        "name": "USDC",
+        "decimals": 6,
+        "trust": "canonical"
+      },
+      {
+        "address": "0x89B50855Aa3bE2F677cD6303Cec089B5F319D72a",
+        "symbol": "EURC",
+        "name": "EURC",
+        "decimals": 6,
+        "trust": "listed"
+      }
+    ],
+    "11155931": [
+      {
+        "address": "0x008fCD6315c68EbAa31244aea174993f63Ef14D5",
+        "symbol": "WETH",
+        "name": "Wrapped Ether",
+        "decimals": 18,
+        "trust": "canonical"
+      },
+      {
+        "address": "0x958BDf2eE32ccC5bD660C0842864BB9898F77B36",
+        "symbol": "HAIFU",
+        "name": "Haifu",
+        "decimals": 18,
+        "trust": "listed"
+      },
+      {
+        "address": "0x1f18a1724D8960f10165788dba3123F3f5623BB9",
+        "symbol": "USDC",
+        "name": "USD Coin",
+        "decimals": 6,
+        "trust": "listed"
+      },
+      {
+        "address": "0xB780aa7C36Abd888f81Be044569F4Bf7F2422e07",
+        "symbol": "USDT",
+        "name": "Tether USD",
+        "decimals": 6,
+        "trust": "listed"
+      },
+      {
+        "address": "0xBC3B254f05b38c0327fC6E4442B0EA1eB826f006",
+        "symbol": "WBTC",
+        "name": "Wrapped BTC",
+        "decimals": 8,
+        "trust": "listed"
+      },
+      {
+        "address": "0x598b7315989EA43a7C218c536ef82C98E5b73A89",
+        "symbol": "tUSD",
+        "name": "Test USD",
+        "decimals": 6,
+        "trust": "listed"
+      }
+    ]
+  },
+  "actions": {
+    "placeOrder": {
+      "title": "Place limit order",
+      "spends": true,
+      "calls": [
+        {
+          "contract": "matchingEngine",
+          "abi": "function limitBuy((address base, address quote, uint256 price, uint256 amount, bool isMaker, uint32 n, address recipient) params)",
+          "spend": [
+            {
+              "token": {
+                "arg": "params.quote"
+              },
+              "amount": {
+                "arg": "params.amount"
+              }
+            }
+          ],
+          "receive": {
+            "token": {
+              "arg": "params.base"
+            }
+          },
+          "recipient": {
+            "arg": "params.recipient"
+          }
+        },
+        {
+          "contract": "matchingEngine",
+          "abi": "function limitSell((address base, address quote, uint256 price, uint256 amount, bool isMaker, uint32 n, address recipient) params)",
+          "spend": [
+            {
+              "token": {
+                "arg": "params.base"
+              },
+              "amount": {
+                "arg": "params.amount"
+              }
+            }
+          ],
+          "receive": {
+            "token": {
+              "arg": "params.quote"
+            }
+          },
+          "recipient": {
+            "arg": "params.recipient"
+          }
+        }
+      ]
+    },
+    "swap": {
+      "title": "Swap",
+      "spends": true,
+      "calls": [
+        {
+          "contract": "matchingEngine",
+          "abi": "function marketBuy((address base, address quote, uint256 amount, bool isMaker, uint32 n, address recipient, uint32 slippageLimit) input)",
+          "spend": [
+            {
+              "token": {
+                "arg": "input.quote"
+              },
+              "amount": {
+                "arg": "input.amount"
+              }
+            }
+          ],
+          "receive": {
+            "token": {
+              "arg": "input.base"
+            }
+          },
+          "recipient": {
+            "arg": "input.recipient"
+          }
+        },
+        {
+          "contract": "matchingEngine",
+          "abi": "function marketSell((address base, address quote, uint256 amount, bool isMaker, uint32 n, address recipient, uint32 slippageLimit) input)",
+          "spend": [
+            {
+              "token": {
+                "arg": "input.base"
+              },
+              "amount": {
+                "arg": "input.amount"
+              }
+            }
+          ],
+          "receive": {
+            "token": {
+              "arg": "input.quote"
+            }
+          },
+          "recipient": {
+            "arg": "input.recipient"
+          }
+        }
+      ],
+      "alwaysAsk": true
+    },
+    "cancelOrder": {
+      "title": "Cancel order",
+      "spends": false,
+      "calls": [
+        {
+          "contract": "matchingEngine",
+          "abi": "function cancelOrder(address base, address quote, bool isBid, uint32 orderId)",
+          "ignore": [
+            {
+              "arg": "base",
+              "reason": "Names the order book the order rests in. It receives nothing: a cancelled order's escrow returns to the order's owner."
+            },
+            {
+              "arg": "quote",
+              "reason": "Names the order book the order rests in. It receives nothing: a cancelled order's escrow returns to the order's owner."
+            }
+          ]
+        }
+      ]
+    },
+    "removeLiquidity": {
+      "title": "Remove liquidity",
+      "spends": false,
+      "calls": [
+        {
+          "contract": "positionManager",
+          "abi": "function decreaseLiquidity(uint256 tokenId, uint16 bps, uint256 minBase, uint256 minQuote, address recipient, uint256 deadline)",
+          "recipient": {
+            "arg": "recipient"
+          }
+        }
+      ],
+      "alwaysAsk": true
+    },
+    "collectFees": {
+      "title": "Collect fees",
+      "spends": false,
+      "calls": [
+        {
+          "contract": "positionManager",
+          "abi": "function collect(uint256 tokenId, address recipient)",
+          "recipient": {
+            "arg": "recipient"
+          }
+        }
+      ]
+    }
+  }
+}

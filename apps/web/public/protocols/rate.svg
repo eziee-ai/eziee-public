@@ -1,0 +1,28 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+<!-- Rate brand mark: Rate orange (#E85D2A) tile, Cloud White (#F7F9FC) mark; single fixed design, the same orange the app uses for its logo token in both themes. -->
+<rect width="512" height="512" rx="64" fill="#E85D2A"/>
+<rect x="402.83" y="101.29" width="9.18" height="309.42" fill="#F7F9FC"/>
+<rect x="375.29" y="101.29" width="9.18" height="309.42" fill="#F7F9FC"/>
+<rect x="347.78" y="101.29" width="9.18" height="309.42" fill="#F7F9FC"/>
+<rect x="320.23" y="101.29" width="9.18" height="309.42" fill="#F7F9FC"/>
+<rect x="292.72" y="101.29" width="9.18" height="309.42" fill="#F7F9FC"/>
+<rect x="265.17" y="101.29" width="9.18" height="309.42" fill="#F7F9FC"/>
+<rect x="237.66" y="101.29" width="9.18" height="309.42" fill="#F7F9FC"/>
+<rect x="210.12" y="101.29" width="9.18" height="309.42" fill="#F7F9FC"/>
+<rect x="182.6" y="101.29" width="9.18" height="309.42" fill="#F7F9FC"/>
+<rect x="155.06" y="101.29" width="9.18" height="309.42" fill="#F7F9FC"/>
+<rect x="127.55" y="101.29" width="9.18" height="309.42" fill="#F7F9FC"/>
+<rect x="100.0" y="101.29" width="9.18" height="309.42" fill="#F7F9FC"/>
+<rect x="402.83" y="101.29" width="9.18" height="148.52" opacity="0.08" fill="#E85D2A"/>
+<rect x="375.29" y="110.57" width="9.18" height="146.97" opacity="0.16" fill="#E85D2A"/>
+<rect x="347.78" y="119.86" width="9.18" height="148.52" opacity="0.24" fill="#E85D2A"/>
+<rect x="320.23" y="135.32" width="9.18" height="148.52" opacity="0.32" fill="#E85D2A"/>
+<rect x="292.72" y="158.54" width="9.18" height="145.43" opacity="0.4" fill="#E85D2A"/>
+<rect x="265.17" y="186.39" width="9.18" height="145.43" opacity="0.48" fill="#E85D2A"/>
+<rect x="237.66" y="211.13" width="9.18" height="145.43" opacity="0.56" fill="#E85D2A"/>
+<rect x="210.25" y="231.25" width="9.18" height="146.97" opacity="0.64" fill="#E85D2A"/>
+<rect x="182.6" y="243.61" width="9.18" height="145.43" opacity="0.72" fill="#E85D2A"/>
+<rect x="155.06" y="259.1" width="9.18" height="140.79" opacity="0.8" fill="#E85D2A"/>
+<rect x="127.55" y="265.28" width="9.18" height="145.43" opacity="0.88" fill="#E85D2A"/>
+<rect x="100.0" y="279.22" width="9.18" height="131.5" fill="#E85D2A"/>
+</svg>

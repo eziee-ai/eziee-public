@@ -1,0 +1,11 @@
+.agents
+.omc
+.superpowers
+docs/brand
+**/.DS_Store
+**/test-results
+**/playwright-report
+**/*.tsbuildinfo
+**/.data
+**/.env*
+!**/.env.example

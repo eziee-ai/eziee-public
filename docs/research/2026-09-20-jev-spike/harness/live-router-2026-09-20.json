@@ -1,0 +1,12 @@
+{
+  "_note": "One run by hand on 2026-09-20 of the shipped router (readRequest) against TypeSafe's live API. State sent: the message text only.",
+  "model": "jev-1.13.0",
+  "gate": 0.9,
+  "rows": [
+    { "message": "Where can I earn the highest APY providing liquidity?", "intent": "provide_liquidity", "intentConfidence": 1.0, "measure": "highest_yield", "measureConfidence": 1.0, "ms": 559, "inputTokens": 655, "outputTokens": 152, "prerun": true, "why": "confident, and a measure was stated" },
+    { "message": "swap 50 USDC to WETH", "intent": "swap_specific", "intentConfidence": 1.0, "measure": "unspecified", "measureConfidence": 1.0, "ms": 590, "inputTokens": 653, "outputTokens": 150, "prerun": false, "why": "nothing to rank" },
+    { "message": "What's pumping this week? I want in.", "intent": "buy_asset", "intentConfidence": 0.88, "measure": "weekly_momentum", "measureConfidence": 1.0, "ms": 215, "inputTokens": 654, "outputTokens": 151, "prerun": false, "why": "0.88 is under the 0.9 gate" },
+    { "message": "I have 500 USDC, what's the best asset to buy right now?", "intent": "buy_asset", "intentConfidence": 0.99, "measure": "unspecified", "measureConfidence": 1.0, "ms": 335, "inputTokens": 663, "outputTokens": 150, "prerun": false, "why": "no measure stated: we do not pick one for you" },
+    { "message": "수익률이 가장 높은 풀에 유동성을 공급하고 싶어", "intent": "provide_liquidity", "intentConfidence": 1.0, "measure": "highest_yield", "measureConfidence": 1.0, "ms": 195, "inputTokens": 662, "outputTokens": 152, "prerun": true, "why": "confident, and a measure was stated" }
+  ]
+}
